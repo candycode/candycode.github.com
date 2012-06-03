@@ -1,0 +1,11 @@
+pygments: true
+markdwn: rdiscount
+server: true
+project_title: Ugo's dusty attic
+owner_name: candycode
+title: LoCO.js
+tagline: JavaScript/C++ framework
+repository_url: http://github.com/candycode/loco
+zip_url: https://github.com/candycode/loco/zipball/master
+tar_url: https://github.com/candycode/loco/tarball/master
+owner_url: http://github.com/candycode
