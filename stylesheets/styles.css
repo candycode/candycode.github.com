@@ -702,7 +702,8 @@ dt {
   top: 0;
   height: 200px;
   position: fixed;
-  background: url(../images/header-center.jpg)
+  background: url(../images/header-center.jpg);
+  color: #aaaaaa
 }
 
 #header {
