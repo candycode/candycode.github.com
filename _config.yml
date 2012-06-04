@@ -1,5 +1,5 @@
 pygments: true
-markdown: rdiscount
+markdown: kramdown
 server: true
 project_title: Ugo's dusty attic
 owner_name: candycode
