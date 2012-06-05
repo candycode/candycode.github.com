@@ -700,12 +700,11 @@ dt {
 
 /* UV */
 #banner {
-  width: 100%;
   margin: 0 auto;
   top: 0;
   height: 200px;
-  position: fixed;
   background: url(../images/header-center.jpg);
+  background-position: center;
   color: #aaaaaa
 }
 
@@ -713,22 +712,26 @@ dt {
   z-index: 100;
   left: 0;
   top: 200px;
-  height: 60px;
+  height: 48px;
   width: 100%;
-  position: fixed;
   background: url(../images/nav-bg.gif) #353535;
   border-bottom: 4px solid #434343;
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+  margin-bottom: 30px;
 }
 #header nav {
   max-width: 650px;
   margin: 0 auto;
   padding: 0 10px;
   /*background: blue;*/
-  margin: 6px auto;
+  margin: -6px auto;
+}
+#header nav ul {
+  margin-left: -40px;
+  text-align: center;
 }
 #header nav li {
   font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -760,12 +763,13 @@ dt {
   -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
   background-color: #93bd20;
-  padding: 10px 12px;
+  padding: 8px 9px;
   margin-top: 6px;
-  line-height: 14px;
-  font-size: 14px;
+  line-height: 13px;
+  font-size: 13px;
   display: inline-block;
   text-align: center;
+  width: 13%;
 }
 #header nav li a:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #749619), color-stop(100%, #527f0e));
@@ -797,22 +801,23 @@ dt {
 
 section {
   max-width: 650px;
-  padding: 30px 0px 50px 0px;
-  margin: 20px 0;
+  padding: -30px 0px 50px 0px;
+  margin: 0 auto;
   margin-top: 70px;
 }
 section #title {
+  top: 100px;
   border: 0;
   outline: none;
-  margin: 0 0 50px 0;
+  margin: 0 auto;
   padding: 0 0 5px 0;
 }
 section #title h1 {
   font-family: 'Mate SC', 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 40px;
+  font-size: 44px;
   text-align: center;
-  line-height: 36px;
+  line-height: 44px;
 }
 section #title p {
   color: #d7cfbe;

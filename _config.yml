@@ -2,6 +2,7 @@ pygments: true
 markdown: kramdown
 server: true
 project_title: Ugo's dusty attic
+project_tagline: quaerendo invenietis
 owner_name: candycode
 title: Ugo's website
 repository_url: http://github.com/candycode/candycode.github.com

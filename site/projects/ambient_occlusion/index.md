@@ -3,6 +3,10 @@ layout: default
 latex: true
 content_type: md
 ---
+
+* a toc
+* {:toc}
+
 #Header 1
 
 #Header 2 
