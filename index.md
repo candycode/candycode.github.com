@@ -12,11 +12,23 @@ layout: default
 
 ## Image galleries test
 
-*tbd*
+Check the _portfolio_ section
 
 ## Video test
 
 *tbd*
+
+## Table test
+
+| Left align | Right align | Center align |
+|:-----------|------------:|:------------:|
+| This       |        This |     This     
+| column     |      column |    column    
+| will       |        will |     will     
+| be         |          be |      be      
+| left       |       right |    center    
+| aligned    |     aligned |   aligned
+
 
 #Status
 
