@@ -34,7 +34,9 @@
     <link rel="stylesheet" href="{{asset_path_prefix}}stylesheets/ie.css">
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    {% if page.lightbox %}
+    <link href="/addons/lightbox/css/lightbox.css" rel="stylesheet" />
+    {% endif %}
   </head>
   <body>
       <div id="banner"> 
@@ -69,8 +71,10 @@
       {% else %}
         {{content}}
       {% endif %}
-      </section>
     </div>
+    {% if page.lightbox %}
+    <script src="/addons/lightbox/js/lightbox.js"></script>
+    {% endif %}
     <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
   </body>
 </html>
