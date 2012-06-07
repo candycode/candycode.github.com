@@ -41,6 +41,18 @@ lightbox: true
 </table>
 
 ##Video(Youtube)
+
+To center: wrap iframe with
+
+```
+<div style="text-align: center">
+...
+```
+
+To avoid having the youtube video cover other items on the page add ```?wmode=transparent``` to the youtube embed url.
+
+
+
 <div style="text-align: center">
 <iframe width="560" height="315" style="margin: 0 auto" src="http://www.youtube.com/embed/p3mS-BkFxec?wmode=transparent" frameborder="0" allowtransparency="true" allowfullscreen="true"></iframe>
 </div>
