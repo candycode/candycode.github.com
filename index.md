@@ -12,11 +12,11 @@ layout: default
 
 ## Image galleries test
 
-Check the _portfolio_ section
+Checkout the _portfolio_ page
 
 ## Video test
 
-*tbd*
+Checkout the _portfolio_ page
 
 ## Table test
 
