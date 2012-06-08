@@ -3,8 +3,76 @@ layout: default
 lightbox: true
 ---
 
+##Molekel
+
+Multiplatform molecular visualization/analysis program.
+[Website](http://molekel.cscs.ch)
+
+TBD: images, link to presentation
+
+##Crystal Viewer
+
+Real-time visualizaiton of large (multi-million atoms) chemical compounds.
+Features:
+* color coding of scalar fields
+* picking of individual atoms
+* support for symmetry and replication of unit cell 
+
+
+##Interactive visualization for quantum chemistry
+
+Research on techniques for visualizing molecular orbitals from direct
+real-time evaluation of approximate solutions to the Schroedinger equation.
+
+Paper, articles and poster published.
+
+##Graphics kernel for interactive molecular modeling
+
+Some features:
+
+* precomputed ambient occlusion of molecular surfaces(SES & SAS).
+* real-time ambient occlusion of animated molecules
+* order-correct transparency to mix surfaces with atoms and bonds
+* volume-rendering of scalar fields, orbitals & density matrix
+* real-time rendering of multi-million atom datasets 
+* application of user defined programmable shaders to any graphical object
+* high quality output suitable for publications
+* distributed version through equalizer graphics
+* novel approach to distributed rendering and compositing based on MPI(MVAPICH2) and
+  direct GPU to GPU transfer
+
+##Ambient occlusion
+
+Precomputed and real-time ambient occlusion.
+
+##Real-time raytracing of quadric surfaces
+
+##QLua
+
+##OpenBabel
+
+Contributed code to parse and interpret quantum chemistry data formats.
+
+##ParaView/VTK
+
+Contributed real-time raytracing code to particle renderer. 
+
+##(GP)GPU programming 
+
+##Parsley
+
+##LoCO.js
+
+##QLua
+
+##Free Dimensions
+
+##sMesh
+
 ##Single image
 
+---
+#Tests
 
 <a href="gallery/bones_ao.jpg" 
  rel="lightbox" 
