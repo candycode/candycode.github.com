@@ -17,7 +17,7 @@ currently working on.
 ##Screen-space ambient occlusion
 
 Real-time ambient occlusion, developed to enable better spatial perception
-of 3D scientific data sets.
+of visualized (animated) 3D scientific data sets.
 
 ![](pics/ssao.png)
 
