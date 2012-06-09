@@ -3,12 +3,17 @@ layout: default
 lightbox: true
 ---
 
+...updating page
+
 ##Molekel
 
 Multiplatform molecular visualization/analysis program.
+
+Checkout the presentation given at the American Chemical Society as well as gallery and videos on the official website.
+
 [Website](http://molekel.cscs.ch)
 
-TBD: images, link to presentation
+TBD: image
 
 ##Crystal Viewer
 
@@ -18,6 +23,7 @@ Features:
 * picking of individual atoms
 * support for symmetry and replication of unit cell 
 
+TBD: image
 
 ##Interactive visualization for quantum chemistry
 
@@ -25,6 +31,8 @@ Research on techniques for visualizing molecular orbitals from direct
 real-time evaluation of approximate solutions to the Schroedinger equation.
 
 Paper, articles and poster published.
+
+TBD: link to gallery page
 
 ##Graphics kernel for interactive molecular modeling
 
@@ -45,7 +53,11 @@ Some features:
 
 Precomputed and real-time ambient occlusion.
 
+TBD: link to gallery page, include snapshot of AOWhiz gui window.
+
 ##Real-time raytracing of quadric surfaces
+
+TBD: image/video
 
 ##QLua
 
@@ -69,10 +81,12 @@ Contributed real-time raytracing code to particle renderer.
 
 ##sMesh
 
-##Single image
 
 ---
+
 #Tests
+
+##Single image
 
 <a href="gallery/bones_ao.jpg" 
  rel="lightbox" 

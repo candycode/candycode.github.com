@@ -2,43 +2,14 @@
 layout: default
 ---
 
-...just a test site to check if I can port my wordpress site to jekyll
+Hi, welcome to my site, I am currently in the process of moving a _WordPress_ based webiste to 
+an (almost) completely static site built with _Jekyll_ on GitHub where most of 
+my private and public projects are currently hosted.
 
-#Tests
+Once I'm done I'll probably write a blog article about the experience of making everything
+work(namely LaTeX, embedded videos and image galleries, google analytics, discus...). 
 
-## Latex test
+__IMPORTANT__: If you are browsing with Internet Explorer version < 9 you won't be able
+to access the various image galleries on this site. 
 
-[MatJax](/site/projects/ambient_occlusion)
-
-## Image galleries test
-
-Checkout the _portfolio_ page
-
-## Video test
-
-Checkout the _portfolio_ page
-
-## Table test
-
-| Left align | Right align | Center align |
-|:-----------|------------:|:------------:|
-| This       |        This |     This     
-| column     |      column |    column    
-| will       |        will |     will     
-| be         |          be |      be      
-| left       |       right |    center    
-| aligned    |     aligned |   aligned
-
-
-#Status
-
-* Changed theme
-* Tested with maroku, rdiscount and kramdown: *use kramdown* since it's the one
-that works best with MathJax
-
-
-
-
-
-
-
+ 
