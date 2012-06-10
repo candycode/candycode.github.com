@@ -9,8 +9,8 @@ hosted on _GitHub_. They represent a subset of the list found in the _Portfolio_
 section, which also includes some projects not yet open-sourced or simply
 unmaintained or discontinued. 
 
-Although these projects do look unrelated, they are the basis together
-with other non-yet-open-sourced projects for some
+Although these projects do look unrelated, they are the basis, together
+with other non-yet-open-sourced projects, for some
 new molecular modeling/visualization/simulation/analysis programs I am
 currently working on.
 
@@ -28,13 +28,13 @@ of quantum chemistry/physics computations.
 
 ##[LoCO.js](http://locojs.net)
 
-JavaScript/C++ application framework: develop multiplatform desktop applications
-with CoffeeScript/JavaScript/Skulpt/Scheme...anything that compiles to
-JavaScript together with knockout, jQuery(UI) or any of your favorite JS framework.
+JavaScript/C++ application framework: Develop multiplatform desktop applications
+with CoffeeScript/JavaScript/Python/Scheme...anything that compiles to
+JavaScript, together with Knockout, jQuery(UI) or any of your favorite JS framework.
 
 Implement modules as C++ loadable objects and use a scripting language as glue/controller.
 
-Distribute apps as a single executable or player application which downloads
+Distribute apps as a single executable or a player application which downloads
 objects on the fly.
 
 Network(w/ SSL), services provided with configurable resource access control.
