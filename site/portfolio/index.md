@@ -5,33 +5,39 @@ lightbox: true
 
 ...updating page
 
+Just some stuff I worked on.
+
 All of the following projects are(were) developed as personal projects, including the
-ones that started at work, in some cases the code is not yet publicly available
-because either I didn't have time to release it, I'm waiting until a I publish a paper or 
-because I need to make sure I can legally release it under the proper opensource license. 
+ones that started at work, in some cases the code and documents are not yet publicly available
+because:
+
+* I did not have time OR
+* I am waiting until I publish a paper/article  OR
+* I need to make sure I can legally opensource the project under the proper license. 
 
 #Molekel
 
-![](pics/molekel/banner.jpg)
+![](pics/molekel/bannerbw.jpg)
 
 Multiplatform molecular visualization/analysis program.
 
-Checkout the presentation given at the American Chemical Society as well as gallery and videos on the official website.
+Checkout the presentation given(upon invitation) at the _American Chemical Society_ as well 
+as gallery and videos on the official website.
 
 [Website](http://molekel.cscs.ch)
 
-This project has been discontinued in 2010, but it's still being downloaded at
+This project has been discontinued in 2010, but it is still being downloaded at
 a rate of about 1k downloads per months.
 
 I am now working on my own at a very slow pace to build a replacement for the program with a
 brand new rendering engine and trying to include some of the many feature requests received
-from users, including scripting, plugins and the ability to driectly interface with the computing infrastructure (both HPC and grid/cloud).
+from users, including scripting, plugins and the ability to directly interface with the computing infrastructure (both HPC and grid/cloud).
 
-I'm expectig to release a 1.0 version by fall/winter 2013 under a BSD-like license.
+I am expectig to release a 1.0 version by fall/winter 2013 under a BSD-like license.
 
 #Crystal Viewer
 
-![](pics/crystal_viewer/banner.jpg)
+![](pics/crystal_viewer/bannerbw.jpg)
 
 Real-time visualizaiton of large (multi-million atoms) chemical compounds.
 Features:
@@ -45,7 +51,7 @@ _EMPA_(material science lab).
 
 #Interactive visualization for quantum chemistry
 
-![](pics/funorbitals/banner.jpg)
+![](pics/funorbitals/bannerbw.jpg)
 
 Research on techniques for analyzing molecules, scalar and vector fields from direct
 real-time evaluation of approximate solutions to the Schroedinger equation.
@@ -69,6 +75,8 @@ Some features:
 * fast (multithreaded and GPU-enabled) K-d tree implementation 
 
 #(Reverse) global illumination
+
+![](pics/rglobal_illum/bannerbw.jpg)
 
 Research on how to infer properties of 3d shapes from global illumination-related properties.
 Cannot disclose more at this time. 
@@ -123,21 +131,17 @@ directly acces QObject properties and invokable methods from Lua.
 
 [Hosted on GitHub](http://github.com/candycode/qlua)
 
-_...more to come_
-
-
-
 #Free Dimensions
 
 This is a program from the previous century. It started as  a proof of concept for a distributed CAD/3D modeler on SGI hardware and was lately rewritten to work on Windows around 1998, used mainly as a workbench for experimenting with computer graphics algorithms, OpenGL and Windows GUI programming. I also built it to generate (animated) data for RenderMan compliant renderers, unfortunately I never had access to the real thing so the shader interface only works with BMRT.
 
-Free Dimensions can generate any sort of geometry from F-Rep with CSG to NURBS and has limited support for animation. It can also generate depth maps and perform preview of applied shadow and light maps (all done painfully slowly on the CPU). Last but not least it can export a 3D world to Windows, X, and Java3D source code.
+Free Dimensions can generate any sort of geometry from F-Rep with CSG and blending to NURBS and has limited support for animation. It can also generate depth maps and perform preview of applied shadows and light maps (all done painfully slowly on the CPU). Last but not least it can export a 3D world to Windows, X, and Java3D source code.
 
-It turns out that the program (together with BMRT 2.6) seems to work on Windows 7 (although with issues with resizing and when using multi-level undo/redo) including the scripting interface and some networking features.
+It turns out that the program (together with BMRT 2.6) does work on Windows 7 (although with issues with resizing and when using multi-level undo/redo) including the scripting interface and some networking features.
 
 #sMesh
 
 Subdivide with Catmull-Clark, Loop and other techniques and decimate high polygonal count
 meshes.
 
-
+...to be continued
