@@ -35,6 +35,7 @@ I'm expectig to release a 1.0 version by fall/winter 2013 under a BSD-like licen
 
 Real-time visualizaiton of large (multi-million atoms) chemical compounds.
 Features:
+
 * color coding of scalar fields
 * picking of individual atoms
 * support for symmetry and replication of unit cell 
