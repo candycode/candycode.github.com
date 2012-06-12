@@ -93,7 +93,7 @@ feasibility of most of the features; many concepts from this research
 are used in my new molecular modeling tool currently in the making; some
 of the prototypes are or will be opensourced.
 
-#(Inverse) global illumination
+#(Reverse) global illumination
 
 ![](pics/rglobal_illum/bannerbw.jpg)
 
@@ -142,8 +142,6 @@ Full integration with WebKit: expose any object to WebKit context.
 [Hosted on GitHub](http://locojs.net)
 
 #QLua
-
-![](pics/qlua/bannerbw.jpg)
 
 Make any QObject-derived class instance available to Lua; connect:
 
