@@ -62,6 +62,8 @@ Paper, article and posters published.
 
 Some features:
 
+![](pics/gkernel/bannerbw.jpg)
+
 * precomputed ambient occlusion of molecular surfaces(SES & SAS).
 * real-time ambient occlusion 
 * order-correct transparency to mix surfaces with atoms and bonds
@@ -98,22 +100,21 @@ Research on how to infer features of 3d shapes from global illumination-related 
 
 Cannot disclose more at this time. 
 
-#Real-time raytracing of quadric surfaces
+#Real-time raytracing of quadrics
+
+![](pics/quadrics/bannerbw.jpg)
 
 Implementation of a real-time ray-tracing engine using point and quadrangles
-as proxy geometry for quadric primitives.
+as proxy geometry for quadric primitives. 
+
+Proxy geometry is optimal i.e. edges are tangent to the quadric surface
+for most quadric types.
 
 OpenSceneGraph code available GitHub, temporarily hosted in a private project.
 
-#OpenBabel
-
-Contributed code to parse and interpret quantum chemistry data formats.
-
-#ParaView/VTK
-
-Contributed real-time raytracing code to particle renderer. 
-
 #Parsley
+
+![](pics/parsley/bannerbw.jpg)
 
 Parsing framework originally developed to exctract and interpret data from results
 of quantum chemistry/physics computations.
@@ -170,4 +171,12 @@ It turns out that the program (together with BMRT 2.6) does work on Windows 7 (a
 
 Subdivide with Catmull-Clark, Loop and other techniques and decimate high polygonal count
 meshes.
+
+#OpenBabel
+
+Contributed code to parse and interpret quantum chemistry data formats.
+
+#ParaView/VTK
+
+Contributed real-time raytracing code to particle renderer. 
 
