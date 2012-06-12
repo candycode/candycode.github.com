@@ -121,7 +121,7 @@ of quantum chemistry/physics computations.
 
 [Hosted on GitHub](http://github.com/candycode/parsley)
 
-#Loco.js
+#LoCO.js
 
 JavaScript/C++ application framework: Develop multiplatform desktop applications
 with CoffeeScript/JavaScript/Python/Scheme...anything that compiles to
