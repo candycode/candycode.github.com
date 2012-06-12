@@ -125,7 +125,7 @@ of quantum chemistry/physics computations.
 
 JavaScript/C++ application framework: Develop multiplatform desktop applications
 with CoffeeScript/JavaScript/Python/Scheme...anything that compiles to
-JavaScript, together with Knockout, jQuery(UI) or any of your favorite JS framework.
+JavaScript, together with Knockout, jQuery(UI) or any of your favorite JS frameworks.
 
 Implement modules as C++ loadable objects and use a scripting language as glue/controller.
 
