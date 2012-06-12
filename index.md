@@ -12,4 +12,7 @@ work(namely LaTeX, embedded videos and image galleries, google analytics, discus
 __IMPORTANT__: If you are browsing with Internet Explorer version < 9 you won't be able
 to access the various image galleries on this site. 
 
- 
+###GitHub accounts:
+
+* [candycode](http://github.com/candycode) - personal  
+* [ugovaretto](http://github.com/ugovaretto) - scratchpad/junk drawer for work-related projects 
