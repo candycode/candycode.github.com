@@ -124,6 +124,8 @@ of quantum chemistry/physics computations.
 
 #LoCO.js
 
+![](pics/loco/bannerbw.jpg)
+
 JavaScript/C++ application framework: Develop multiplatform desktop applications
 with CoffeeScript/JavaScript/Python/Scheme...anything that compiles to
 JavaScript, together with Knockout, jQuery(UI) or any of your favorite JS frameworks.
