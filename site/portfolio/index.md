@@ -3,7 +3,7 @@ layout: default
 lightbox: true
 ---
 
-...updating page
+_...updating..._
 
 Just some stuff I worked on.
 
@@ -12,7 +12,7 @@ ones that started at work, in some cases the code and documents are not yet publ
 because:
 
 * I did not have time OR
-* I am waiting until I publish a paper/article  OR
+* I am waiting to find the time to publish a paper/article  OR
 * I need to make sure I can legally opensource the project under the proper license. 
 
 #Molekel
@@ -56,29 +56,46 @@ _EMPA_(material science lab).
 Research on techniques for analyzing molecules, scalar and vector fields from direct
 real-time evaluation of approximate solutions to the Schroedinger equation.
 
-Paper, articles and poster published.
+Paper, article and posters published.
 
-#Graphics kernel for interactive molecular modeling
+#Kernel for interactive molecular modeling and analysis
 
 Some features:
 
 * precomputed ambient occlusion of molecular surfaces(SES & SAS).
-* real-time ambient occlusion of animated molecules
+* real-time ambient occlusion 
 * order-correct transparency to mix surfaces with atoms and bonds
 * volume-rendering of scalar fields, orbitals & density matrix
-* real-time rendering of multi-million atom datasets 
+* real-time rendering of multi-million atom datasets(with bonds)
+* direct rendering of functional representations
+* advanced 3D selection and picking: select any object with conditional
+  queries or through 3D pickers controlled with the mouse and haptic devices 
 * application of user defined programmable shaders to any graphical object
 * high quality output suitable for publications
 * distributed version through equalizer graphics
-* novel approach to distributed rendering and compositing based on RDMA and
+* (experimental) novel approach to distributed rendering and compositing based on RDMA and
   direct intra- and inter-node GPU to GPU transfer
 * fast (multithreaded and GPU-enabled) K-d tree implementation 
+* interface to (custom) database systems to store structures and perform queries
+  based on affinity/maximum likelyhood matching e.g. find structures
+  with LUMO/HOMO orbitals with specific energies or compounds likely to
+  bind with specific molecule at specific sites
+* basic near-real-time Lennar-Jones molecular dynamics with simulation
+  of individual subregions
+* computation and animation of vibrational modes  
+
+This thing started with a proper analysis and design phase and was basically
+frozen after having implemented separate working prototypes to verify the
+feasibility of most of the features; many concepts from this research
+are used in my new molecular modeling tool currently in the making; some
+of the prototypes will be opensourced if I find the time.
 
 #(Reverse) global illumination
 
 ![](pics/rglobal_illum/bannerbw.jpg)
 
-Research on how to infer properties of 3d shapes from global illumination-related properties.
+Research on how to infer features of 3d shapes from global illumination-related properties.
+
 Cannot disclose more at this time. 
 
 #Real-time raytracing of quadric surfaces
@@ -131,6 +148,16 @@ directly acces QObject properties and invokable methods from Lua.
 
 [Hosted on GitHub](http://github.com/candycode/qlua)
 
+#QTest
+
+Macro recording and automatic testing of Qt GUI applications: record events and play them back 
+at a later time with the desired speed.
+
+Support for snapshots and checkpoints included.
+
+One version, with no dependencies on _Molekel_ is already included in the _Molekel_ 
+source code repository inside the <code>src/utility/events</code> directory. 
+
 #Free Dimensions
 
 This is a program from the previous century. It started as  a proof of concept for a distributed CAD/3D modeler on SGI hardware and was lately rewritten to work on Windows around 1998, used mainly as a workbench for experimenting with computer graphics algorithms, OpenGL and Windows GUI programming. I also built it to generate (animated) data for RenderMan compliant renderers, unfortunately I never had access to the real thing so the shader interface only works with BMRT.
@@ -144,4 +171,3 @@ It turns out that the program (together with BMRT 2.6) does work on Windows 7 (a
 Subdivide with Catmull-Clark, Loop and other techniques and decimate high polygonal count
 meshes.
 
-...to be continued
