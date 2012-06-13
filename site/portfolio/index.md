@@ -2,6 +2,7 @@
 layout: default
 lightbox: true
 imagehover: true
+title: molecular modeling, functional representations ...  
 ---
 
 ...just some stuff I have been working on.
