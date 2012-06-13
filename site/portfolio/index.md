@@ -3,18 +3,15 @@ layout: default
 lightbox: true
 ---
 
-_...still updating..._
-
 Just some stuff I worked on.
 
 All of the following projects are(were) developed as personal projects, including the
-ones that started at work, in some cases the code and documents are not yet publicly available
-because:
+ones that started at work(at ETH Zuerich/CSCS), in some cases the code and documents 
+are not yet publicly available because:
 
 * I did not have time _OR_
 * I am waiting to find the time to publish a paper/article  _OR_
 * I need to make sure I can legally opensource the project under the proper license. 
-
 
 #Molekel
 
@@ -31,10 +28,15 @@ This project has been discontinued in 2010, but it is still being downloaded at
 a rate of about 1k downloads per month.
 
 I am now working on my own at a very slow pace to build a replacement for the program with a
-brand new rendering engine and trying to include some of the many feature requests received
-from users, including scripting, plugins and the ability to directly interface with the computing infrastructure (both HPC and grid/cloud).
+brand new rendering engine and trying to include some of the many feature requests(hundreds
+of pages of email messages) received from users, including scripting, plugins and the ability to directly interface with the computing infrastructure (both HPC and grid/cloud).
 
 I am expectig to release a 1.0 version by fall/winter 2013 under a BSD-like license.
+
+Since it turns out that quite a few pieces of the _Molekel_ program where extracted
+and used in other software packages or to write papers without giving any credit,
+I will not release any intermediate version of the program until I make at least a referenceable
+publication somewhere(_arXiv_ is enough).
 
 #Crystal Viewer
 
@@ -166,7 +168,11 @@ source code repository inside the <code>src/utility/events</code> directory.
 
 #Free Dimensions
 
-This is a program from the previous century. It started as  a proof of concept for a distributed CAD/3D modeler on SGI hardware and was lately rewritten to work on Windows around 1998, used mainly as a workbench for experimenting with computer graphics algorithms, OpenGL and Windows GUI programming. I also built it to generate (animated) data for RenderMan compliant renderers, unfortunately I never had access to the real thing so the shader interface only works with BMRT.
+![](pics/fd/bannerbw.jpg)
+
+This is a program from the previous century. It started as  a proof of concept for a distributed CAD/3D modeler where 3D objects had assigned permissions similar to files in file systems
+and any instance of the program could work as client and/or server.
+Originally developed on SGI hardware and lately rewritten to work on Windows around 1998, used mainly as a workbench for experimenting with computer graphics algorithms, OpenGL and Windows GUI programming. I also built it to generate (animated) data for RenderMan compliant renderers, unfortunately I never had access to the real thing so the shader interface only works with BMRT.
 
 Free Dimensions can generate any sort of geometry from F-Rep with CSG and blending to NURBS and has limited support for animation. It can also generate depth maps and perform preview of applied shadows and light maps (all done painfully slowly on the CPU). Last but not least it can export a 3D world to Windows, X, and Java3D source code.
 
@@ -174,8 +180,12 @@ It turns out that the program (together with BMRT 2.6) does work on Windows 7 (a
 
 #sMesh
 
-Subdivide with Catmull-Clark, Loop and other techniques and decimate high polygonal count
-meshes.
+![](pics/smesh/bannerbw.jpg)
+
+Another set of tools developed in the nineties, while still in college.
+
+Subdivide with Catmull-Clark, Loop and other techniques, decimate high polygonal count
+meshes, apply height maps to the surface vertices.
 
 #OpenBabel
 
