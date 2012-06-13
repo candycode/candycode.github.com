@@ -1,6 +1,7 @@
 ---
 layout: default
 lightbox: true
+imageover: true
 ---
 
 Just some stuff I worked on.
@@ -13,10 +14,16 @@ are not yet publicly available because:
 * I am waiting to find the time to publish a paper/article  _OR_
 * I need to make sure I can legally opensource the project under the proper license. 
 
+Hover on the banners to add colors.
+
+Since I do have tons of presentations, whitepapers, images and movies related to 
+these projects, in the future it will be possible to access additional resources
+from this page. For the time being please do contact me directly in case you are
+interested in any of these projects.
 
 #Molekel
 
-![](pics/molekel/bannerbw.jpg)
+<img src="pics/molekel/banner.jpg" class="imghover"/>
 
 Multiplatform molecular visualization/analysis program. Started as a proof
 of concept to test the suitability of different libraries, it ended up
@@ -45,7 +52,7 @@ publication somewhere(_arXiv_ is enough).
 
 #Crystal Viewer
 
-![](pics/crystal_viewer/bannerbw.jpg)
+<img src="pics/crystal_viewer/banner.jpg" class="imghover"/>
 
 Real-time visualizaiton of large (multi-million atoms) chemical compounds.
 Features:
@@ -59,7 +66,7 @@ _EMPA_(Swiss material science lab).
 
 #Interactive visualization for quantum chemistry
 
-![](pics/funorbitals/bannerbw.jpg)
+<img src="pics/funorbitals/banner.jpg" class="imghover"/>
 
 Research on techniques for analyzing molecules, scalar and vector fields from direct
 real-time evaluation of approximate solutions to the Schroedinger equation.
@@ -68,7 +75,7 @@ Paper, article and posters published.
 
 #Kernel for interactive molecular modeling and analysis
 
-![](pics/gkernel/bannerbw.jpg)
+<img src="pics/gkernel/banner.jpg" class="imghover"/>
 
 Some features:
 
@@ -102,7 +109,7 @@ of the prototypes are or will be opensourced.
 
 #(Inverse) global illumination
 
-![](pics/rglobal_illum/bannerbw.jpg)
+<img src="pics/rglobal_illum/banner.jpg" class="imghover"/>
 
 Research on how to infer features of 3d shapes from global illumination-related properties.
 
@@ -110,7 +117,7 @@ Cannot disclose more at this time.
 
 #Real-time raytracing of quadrics
 
-![](pics/quadrics/bannerbw.jpg)
+<img src="pics/quadrics/banner.jpg" class="imghover"/>
 
 Implementation of a real-time ray-tracing engine using points and quadrangles
 as proxy geometry for quadric primitives. 
@@ -122,7 +129,7 @@ OpenSceneGraph code available on GitHub, temporarily hosted in a private project
 
 #Parsley
 
-![](pics/parsley/bannerbw.jpg)
+<img src="pics/parsley/banner.jpg" class="imghover"/>
 
 Parsing framework originally developed to exctract and interpret data from results
 of quantum chemistry/physics computations.
@@ -131,7 +138,7 @@ of quantum chemistry/physics computations.
 
 #LoCO.js
 
-![](pics/loco/bannerbw.jpg)
+<img src="pics/loco/banner.jpg" class="imghover"/>
 
 Multiplatform JavaScript/C++ application framework: Develop multiplatform desktop applications
 with CoffeeScript/JavaScript/Python/Scheme...anything that compiles to
@@ -150,7 +157,7 @@ Full integration with WebKit: expose any object to WebKit context.
 
 #QLua
 
-![](pics/qlua/bannerbw.jpg)
+<img src="pics/qlua/banner.jpg" class="imghover"/>
 
 Make any QObject-derived class instance available to Lua; connect:
 
@@ -173,16 +180,24 @@ source code repository inside the <code>src/utility/events</code> directory.
 
 #F-Rep modeling
 
-![](pics/frep/bannerbw.jpg)
+<img src="pics/frep/banner.jpg" class="imghover"/>
 
-Attemps at building a 3D modeling application using only functional
-representations and volumetric datasets.
+Attempts at building a 3D modeling application using only functional
+representations and volumetric datasets with multi-dimensional transfer functions.
 This is research I started on my own many years ago; with the latest developments in
 hardware architectures it seems to finally be something possible to accomplish.
 
+#AOWhiz
+
+<img src="pics/aowhiz/banner.jpg" class="imghover"/>
+
+GUI application to generate ambient occlusion information from 3D meshes;
+two versions developed: one based on _wxWidgets_, the other, together with another
+developer, on _Qt_ to also perform a comparison of the two toolkits.
+
 #Free Dimensions
 
-![](pics/fd/bannerbw.jpg)
+<img src="pics/fd/banner.jpg" class="imghover"/>
 
 This is a program from the previous century. It started as  a proof of concept for a distributed CAD/3D modeler where 3D objects had assigned permissions similar to files in file systems
 and any instance of the program could work as client and/or server.
@@ -194,7 +209,7 @@ It turns out that the program (together with BMRT 2.6) does work on Windows 7 (a
 
 #sMesh
 
-![](pics/smesh/bannerbw.jpg)
+<img src="pics/smesh/banner.jpg" class="imghover"/>
 
 Another set of tools developed in the nineties, while still in college.
 
