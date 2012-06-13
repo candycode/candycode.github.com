@@ -5,13 +5,14 @@ lightbox: true
 
 Just some stuff I worked on.
 
-All of the following projects are(were) developed as personal projects, including the
-ones that started at work(at ETH Zuerich/CSCS), in some cases the code and documents 
+This a mix of personal and work-related projects carried on at ETH Zuerich/CSCS which got
+discontinuted and/or turned into personal ones; in many cases the code and documents 
 are not yet publicly available because:
 
-* I did not have time _OR_
+* I do not have time _OR_
 * I am waiting to find the time to publish a paper/article  _OR_
 * I need to make sure I can legally opensource the project under the proper license. 
+
 
 #Molekel
 
@@ -169,6 +170,15 @@ Support for snapshots and checkpoints included.
 
 One version, with no dependencies on _Molekel_ is already included in the _Molekel_ 
 source code repository inside the <code>src/utility/events</code> directory. 
+
+#F-Rep modeling
+
+![](pics/frep/bannerbw.jpg)
+
+Attemps at building a 3D modeling application using only functional
+representations and volumetric datasets.
+This is research I started on my own many years ago; with the latest developments in
+hardware architectures it seems to finally be something possible to accomplish.
 
 #Free Dimensions
 
