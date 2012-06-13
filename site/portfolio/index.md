@@ -1,7 +1,7 @@
 ---
 layout: default
 lightbox: true
-imageover: true
+imagehover: true
 ---
 
 ...just some stuff I have been working on.
