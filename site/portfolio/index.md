@@ -14,7 +14,7 @@ are not yet publicly available because:
 * I am waiting to find the time to publish a paper/article  _OR_
 * I need to make sure I can legally opensource the project under the proper license. 
 
-Hover on the banners to add colors.
+Hover on the banners to add colors(it will take some time to load the images).
 
 Since I do have tons of presentations, whitepapers, images and movies related to 
 these projects, in the future it will be possible to access additional resources
