@@ -2,3 +2,4 @@ _site
 _tmp
 *.swp
 .DS_Store
+*~
