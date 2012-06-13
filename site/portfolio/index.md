@@ -17,9 +17,13 @@ are not yet publicly available because:
 
 ![](pics/molekel/bannerbw.jpg)
 
-Multiplatform molecular visualization/analysis program.
+Multiplatform molecular visualization/analysis program. Started as a proof
+of concept to test the suitability of different libraries, it ended up
+being a widely used software package.
 
-Checkout the presentation given(upon invitation) at the _American Chemical Society_ as well 
+Checkout the 
+[presentation](http://www.slideshare.net/molekel/molekel-august-2009-acs-meeting) 
+given(upon invitation) at the _American Chemical Society_ as well 
 as gallery and videos on the official website.
 
 [Website](http://molekel.cscs.ch)
@@ -193,5 +197,6 @@ Contributed code to parse and interpret quantum chemistry data formats.
 
 #ParaView/VTK
 
-Contributed real-time raytracing code to particle renderer. 
+Contributed real-time raytracing code to particle renderer.
+Collaboration between EDF(France) and ETH Zuerich/CSCS.
 
