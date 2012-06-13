@@ -4,7 +4,7 @@ lightbox: true
 imageover: true
 ---
 
-Just some stuff I worked on.
+...just some stuff I have been working on.
 
 This a mix of personal and work-related projects carried on at ETH Zuerich/CSCS which got
 discontinuted and/or turned into personal ones; in many cases the code and documents 

@@ -11,3 +11,5 @@ zip_url: https://github.com/candycode/candycode.github.com/zipball/master
 tar_url: https://github.com/candycode/candycode.github.com/tarball/master
 owner_url: http://github.com/candycode
 analytics: true
+permalink: none
+future: true
