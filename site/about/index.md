@@ -2,8 +2,9 @@
 layout: default
 ---
 
+_PLACEHOLDER PAGE_
 
-I am a software engineer/computer scientist -currently developing applications for the visualization and analysis of scientific data-. I am also doing research in the field of (distributed) GPU computing.
+I am a software engineer/computer scientist currently residing in Switzerland.
 
 In the past years I worked in many different fields and capacities covering the entire software development process from research and inception  to design, development, testing and documentation while supporting sales and marketing efforts.
 
