@@ -20,7 +20,7 @@ are not yet publicly available because:
 * I am waiting to find the time to publish a paper/article  _OR_
 * I need to make sure I can legally opensource the project under the proper license. 
 
-Hover on the banners to add colors(it will take some time to load the images).
+Hover on the banners to add colors(it takes some time to load the images).
 
 Since I do have tons of presentations, whitepapers, images and movies related to 
 these projects, in the future it will be possible to access additional resources
@@ -33,7 +33,7 @@ interested in any of these projects.
 
 Multiplatform molecular visualization/analysis program. Started as a proof
 of concept to test the suitability of different libraries, it ended up
-being a widely used software package.
+being a widely used software package(mainly due to the lack of alternatives).
 
 Checkout the 
 [presentation](http://www.slideshare.net/molekel/molekel-august-2009-acs-meeting) 
@@ -45,6 +45,14 @@ as gallery and videos on the official website.
 This project has been discontinued in 2010, but it is still being downloaded at
 a rate of about 1k downloads per month.
 
+Note that the real-time rendering quality(especially for electronic structure data) is
+still unmatched by any free or commercial molecular visualization program, mainly due to:
+
+* the ability to apply custom vertex and fragment shaders to any object, with
+  on-the-fly generaion of the shader editor GUI directly from the compiled shaders 
+* correct transparency through depth peeling
+* high resolution output for high DPI printouts 
+ 
 I am now working on my own at a very slow pace to build a replacement for the program with a
 brand new rendering engine and trying to include some of the many feature requests(hundreds
 of pages of email messages) received from users, including scripting, plugins and the ability to directly interface with the computing infrastructure (both HPC and grid/cloud).
@@ -53,8 +61,7 @@ I am expectig to release a 1.0 version by fall/winter 2013 under a BSD-like lice
 
 Since it turns out that quite a few pieces of the _Molekel_ program where extracted
 and used in other software packages or to write papers without giving any credit,
-I will not release any intermediate version of the program until I make at least a referenceable
-publication somewhere(_arXiv_ is enough).
+I will not release any intermediate version of the program and or engine until I make at least a referenceable publication somewhere(_arXiv_ is enough).
 
 #Crystal Viewer
 

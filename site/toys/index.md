@@ -4,10 +4,10 @@ layout: default
 
 #Toys
 
-This is a partial list of both personal and work-related public projects currently
+This is a partial list of semi-active projects currently
 hosted on _GitHub_. They represent a subset of the list found in the _Portfolio_
 section, which also includes some projects not yet open-sourced or simply
-unmaintained or discontinued. 
+unmaintained or discontinued.
 
 Although these projects do look unrelated, they are the basis, together
 with other non-yet-open-sourced projects, for some
@@ -51,5 +51,5 @@ Make any QObject-derived class instance available to Lua; connect:
 directly acces QObject properties and invokable methods from Lua.
 
 
-_...more to come_
+_...to be continued_
 
