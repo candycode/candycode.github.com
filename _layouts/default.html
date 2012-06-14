@@ -98,8 +98,12 @@
           <li><a href="/site/portfolio/">Portfolio</a></li>
           <li><a href="/site/weblog/">Weblog</a></li>
           <li><a href="/site/about/">About</a></li>
-          <li><a href="mailto:candykode@gmail.com">Contact</a></li>
-        </ul></nav>
+          {% if site.contactform %} 
+            <li><a href="/site/contact/">Contact</a></li>
+          {% else %}
+            <li><a href="mailto:candykode@gmail.com">Contact</a></li>
+          {% endif %} 
+       </ul></nav>
       </div><!-- end header -->
 
     <div class="wrapper">

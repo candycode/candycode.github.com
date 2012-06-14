@@ -14,3 +14,4 @@ analytics: true
 permalink: none
 future: true
 feedburner: true
+contactform: true
