@@ -30,7 +30,7 @@ of quantum chemistry/physics computations.
 
 JavaScript/C++ application framework: Develop multiplatform desktop applications
 with CoffeeScript/JavaScript/Python/Scheme...anything that compiles to
-JavaScript, together with Knockout, jQuery(UI) or any of your favorite JS framework.
+JavaScript, together with Knockout, jQuery(UI) or any of your favorite JS frameworks.
 
 Implement modules as C++ loadable objects and use a scripting language as glue/controller.
 
@@ -39,7 +39,8 @@ objects on the fly.
 
 Network(w/ SSL), services provided with configurable resource access control.
 
-Full integration with WebKit: expose any object to WebKit context.
+Full integration with WebKit: expose any object to WebKit context and control
+the WebKit context from an external parent context.
 
 ##[QLua](http://github.com/candycode/qlua)
 
@@ -49,7 +50,6 @@ Make any QObject-derived class instance available to Lua; connect:
 * QObject signals to Lua callbacks
 
 directly acces QObject properties and invokable methods from Lua.
-
 
 _...to be continued_
 

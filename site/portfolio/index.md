@@ -32,7 +32,8 @@ interested in any of these projects.
 <img src="pics/molekel/banner.jpg" class="imghover"/>
 
 Multiplatform molecular visualization/analysis program. Started as a proof
-of concept to test the suitability of different libraries, it ended up
+of concept to test the suitability of different software libraries
+for various visualization tasks, it ended up
 being a widely used software package(mainly due to the lack of alternatives).
 
 Checkout the 
@@ -46,7 +47,7 @@ This project has been discontinued in 2010, but it is still being downloaded at
 a rate of about 1k downloads per month.
 
 Note that the real-time rendering quality(especially for electronic structure data) is
-still unmatched by any free or commercial molecular visualization program, mainly due to:
+still unmatched by any of the free or commercial molecular visualization programs, mainly due to:
 
 * the ability to apply custom vertex and fragment shaders to any object, with
   on-the-fly generaion of the shader editor GUI directly from the compiled shaders 
@@ -61,18 +62,21 @@ I am expectig to release a 1.0 version by fall/winter 2013 under a BSD-like lice
 
 Since it turns out that quite a few pieces of the _Molekel_ program where extracted
 and used in other software packages or to write papers without giving any credit,
-I will not release any intermediate version of the program and or engine until I make at least a referenceable publication somewhere(_arXiv_ is enough).
+I will not release any intermediate version of the program and/or engine until I make at least a referenceable publication somewhere(_arXiv_ is enough).
 
 #Crystal Viewer
 
 <img src="pics/crystal_viewer/banner.jpg" class="imghover"/>
 
-Real-time visualizaiton of large (multi-million atoms) chemical compounds.
+Real-time visualizaiton of large (multi-million atoms) chemical datasets.
+
 Features:
 
 * color coding of scalar fields
 * picking of individual atoms
 * support for symmetry and replication of unit cell 
+* support for ShellX and custom developed file format which allows to include
+  any number of per-atom properties
 
 Discontinued; originally developed with another researcher and in collaboration with 
 _EMPA_(Swiss material science lab).
@@ -99,7 +103,8 @@ Some features:
 * real-time rendering of multi-million atom datasets(with bonds)
 * direct rendering of functional representations
 * advanced 3D selection and picking: select any object with conditional
-  queries or through 3D pickers controlled with the mouse and haptic devices 
+  queries or through 3D pickers controlled with the mouse and haptic devices
+  and a new Kinect-like device(but **not** the Kinects itself) 
 * application of user defined programmable shaders to any graphical object
 * high quality output suitable for publications
 * distributed version through _Equalizer Graphics_
@@ -183,8 +188,7 @@ directly acces QObject properties and invokable methods from Lua.
 
 #QTest
 
-Macro recording and automatic testing of Qt GUI applications: record events and play them back 
-at a later time with the desired speed.
+Library for macro recording and automatic testing of Qt GUI applications: record events and play them back at a later time with the desired speed.
 
 Support for snapshots and checkpoints included.
 
@@ -212,8 +216,9 @@ developer, on _Qt_ to also perform a comparison of the two toolkits.
 
 <img src="pics/fd/banner.jpg" class="imghover"/>
 
-This is a program from the previous century. It started as  a proof of concept for a distributed CAD/3D modeler where 3D objects had assigned permissions similar to files in file systems
-and any instance of the program could work as client and/or server.
+This is a program from the previous century. It started as  a proof of concept for a distributed collaborative CAD/3D modeler where 3D objects had assigned permissions similar to files in file systems and any instance of the program could work as client and/or 
+server(similar to current p2p networks).
+
 Originally developed on SGI hardware and lately rewritten to work on Windows around 1998, used mainly as a workbench for experimenting with computer graphics algorithms, OpenGL and Windows GUI programming. I also built it to generate (animated) data for RenderMan compliant renderers, unfortunately I never had access to the real thing so the shader interface only works with BMRT.
 
 Free Dimensions can generate any sort of geometry from F-Rep with CSG and blending to NURBS and has limited support for animation. It can also generate depth maps and perform preview of applied shadows and light maps (all done painfully slowly on the CPU). Last but not least it can export a 3D world to Windows, X, and Java3D source code.
@@ -227,7 +232,7 @@ It turns out that the program (together with BMRT 2.6) does work on Windows 7 (a
 Another set of tools developed in the nineties, while still in college.
 
 Subdivide with Catmull-Clark, Loop and other techniques, decimate high polygonal count
-meshes, apply height maps to the surface vertices.
+meshes, apply height maps to the surface normals.
 
 #OpenBabel
 
