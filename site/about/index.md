@@ -21,8 +21,6 @@ I have a web presence since 1996 and used my sites to distribute my own develope
 I do have interests in computer graphics and life sciences and in general building software
 applications and libraries that people like to use.
 
-### [Online References](http://scholar.google.ch/scholar?hl=en&q=u+varetto&btnG=&as_sdt=1%2C5&as_sdtp=)
-
 I lived and worked in Northern Italy...
 
 <div style="text-align: right"><img src="torino_night_small.jpg"/></div><br/>
@@ -44,6 +42,8 @@ I lived and worked in Northern Italy...
 <div style="text-align: right"><img src="ny_small.jpg"/></div><br/>
 
 Should you see anything interesting on my website plaese go ahead and [contact me](/site/contact).
+
+[online references](http://scholar.google.ch/scholar?q=%22u.+varetto%22&btnG=&hl=en&as_sdt=0%2C5)
 
 
 #This Website
