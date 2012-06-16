@@ -21,6 +21,8 @@ I have a web presence since 1996 and used my sites to distribute my own develope
 I do have interests in computer graphics and life sciences and in general building software
 applications and libraries that people like to use.
 
+### [Online References](http://scholar.google.ch/scholar?hl=en&q=u+varetto&btnG=&as_sdt=1%2C5&as_sdtp=)
+
 I lived and worked in Northern Italy...
 
 <div style="text-align: right"><img src="torino_night_small.jpg"/></div><br/>
