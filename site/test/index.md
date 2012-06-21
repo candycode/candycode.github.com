@@ -30,6 +30,11 @@ Checkout the _portfolio_ page
 | aligned    |     aligned |   aligned
 
 
+##External gallery
+
+[Click here](gallerypage.html#opengallery)
+
+
 #Status
 
 * Changed theme

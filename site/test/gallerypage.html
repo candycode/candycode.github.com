@@ -1,0 +1,30 @@
+---
+layout: default
+lightbox: true
+---
+<script type="text/javascript">
+        // Automagically load Lightbox on Page Load - by Bramus! (http://www.bram.us/)
+        // Code modded from http://www.huddletogether.com/forum/comments.php?DiscussionID=1269&page=1#Item_0
+        function autoFireLightbox() {
+            //Check if location.hash matches a lightbox-anchor. If so, trigger popup of image.
+            setTimeout(function() {
+                if(document.location.hash && $(document.location.hash.substr(1)).rel.indexOf('lightbox')!=-1) {
+                    myLightbox.start($(document.location.hash.substr(1)));
+                }},
+                250
+            );
+        }
+        Event.observe(window, 'load', autoFireLightbox, false);
+</script>
+<a href="gallery/chaperonine_ao.jpg"
+ rel="lightbox[ao1]"
+ id="opengallery" 
+ title="Chaperonine molecule: no ambient occlusion">image</a>
+<a href="gallery/bones_ao.jpg"
+ rel="lightbox[ao1]"
+ title="Chaperonine molecule: ambient occlusion">image</a>
+<a href="gallery/lucy_ao.jpg"
+ rel="lightbox[ao1]"
+ title="Chaperonine molecule: ambient occlusion and phong shading">image</a>
+
+
