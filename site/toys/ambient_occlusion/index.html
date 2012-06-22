@@ -3,7 +3,18 @@ layout: default
 latex: true
 ---
 
-<h1>Introduction</h1>
+<h1>Table of Contents</h1>
+
+<ul>
+ <li><a href="#Introduction">Introduction</a></li>
+ <li><a href="#SSAO">Screen Space Ambient Occlusion</a></li>
+ <li><a href="#Algorithm">Algorithm</a></li>
+ <li><a href="#RealtimeRendering">Real-time rendering technique</a></li>
+ <li><a href="#Conclusion">Conclusion and future directions</a></li>
+ <li><a href="#Bibliography">Bibliography</a></li>
+</ul>
+
+<a name="Introduction" style="color: #f0e7d5"><h1>Introduction</h1></a>
 
 <p>
 Ambient occlusion for a point in space is a measure of how much such point is hidden by
@@ -51,7 +62,8 @@ The key technique employed by the algorithm is to use the angular coefficient of
 to select the points that contribute to the overall occlusion.
 </p>
 
-<h1>Screen Space Ambient Occlusion</h1>
+<a name="SSAO" style="color: #f0e7d5">
+<h1>Screen Space Ambient Occlusion</h1></a>
 
 <p>
 Screen space ambient occlusion for a pixel $p$ can be approximated by 
@@ -103,7 +115,7 @@ occ(\vec{p},\vec{o}) = \frac{max\left( 0, \hat{N}_{P} \cdot \frac{\vec{O}-\vec{P
 {f\left( \left|\vec{O} - \vec{P}\right|\right)}
 $$
 </a>
-<small>Equation 1</small>
+<small>Equation (1)</small>
 </p>
                                  
 Where:
@@ -134,7 +146,8 @@ Where $B(d_{max})$ is a coefficient dependent on the maximum ray length. The val
 $occ(\vec{p}, \vec{o}_{d_{max}})$ is always equal to a predefined occlusion value.  
 </p>
 
-<h1>Algorithm</h1>
+<a name="Algorithm" style="color: #f0e7d5">
+<h1>Algorithm</h1></a>
 
 <p>
 According to the equations defined in the previous sections ambient occlusion at each pixel can be
@@ -183,7 +196,8 @@ Note that the value $\left(z_{p} - z_{o}\right)$ is negative for points $\vec{o}
 from then viewer than point $\vec{p}$.
 </p>
 
-<h1>Real-time rendering technique</h1> 
+<a name="RealtimeRendering" style="color: #f0e7d5">
+<h1>Real-time rendering technique</h1></a> 
 
 <p>
 The data needed by the algorithm described in the previous section are:
@@ -211,7 +225,8 @@ Real-time ambient occlusion computation is therefore performed in two separate r
 
 </p>
 
-<h1>Conclusion and future directions</h1>
+<a name="Conclusion" style="color: #f0e7d5">
+<h1>Conclusion and future directions</h1></a>
 
 <p>
 Screen space ambient occlusion can be successfully used to approximate global illumination effects, depending 
@@ -233,7 +248,8 @@ Also I plan to extend a previously developed ambient occlusion generation applic
 algorithm to generate pre-computed cube and spherical ambient occlusion maps.  
 </p>
 
-<h1>Bibliography</h1>
+<a name="Bibliography" style="color: #f0e7d5">
+<h1>Bibliography</h1></a>
 
 <p>
 <a name="BavoilSainz2009">Bavoil L. and Sainz M.</a><br/>
