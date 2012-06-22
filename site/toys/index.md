@@ -14,7 +14,7 @@ with other non-yet-open-sourced projects, for some
 new molecular modeling/visualization/simulation/analysis programs I am
 currently working on.
 
-##Real-time ambient occlusion
+##[Real-time ambient occlusion](ambient_occlusion/)
 
 Real-time ambient occlusion, developed to enable better spatial perception
 of visualized (animated) 3D scientific data sets.

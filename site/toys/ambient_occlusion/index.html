@@ -21,9 +21,9 @@ but are also a way to make a viewer understand the actual spatial shape of objec
 <a href="#aoandoao">(Fig. 1)</a>.
 </p>
 
-<p>
+<p style="text-align: center">
 <a name="aoandnoao"><img style="text-align: center; width: 650px" src="AO_AND_NOAO.png"/></a>
-<small>Fig. 1: real-time raytracing of chemical data with(right) and without(left ambient occlusion.</small>
+<small>Fig. 1: real-time raytracing of chemical data with(right) and without(left) ambient occlusion.</small>
 </p>
 
 <p>
@@ -35,11 +35,11 @@ Different methods for computing ambient occlusion have been presented over the
 past years; most of them fall into one of two categories: 
 <ol>
  <li>per-vertex or per-face ambient occlusion pre-computation</li>
- <li> real-time per-pixel computation</li>
+ <li>real-time per-pixel computation</li>
 </ol>
 </p>
 <p>
-Vertex based pre-computation methods are fine for static geometry with a high polygon
+Vertex or face based pre-computation methods are fine for static geometry with a high polygon
 count while per-pixel techniques work well for dynamic scenes, do not require the input
 to be a set of polygons, and therefore integrate well with ray-tracing and volume rendering. 
 </p>
@@ -56,30 +56,31 @@ to select the points that contribute to the overall occlusion.
 <p>
 Screen space ambient occlusion for a pixel $p$ can be approximated by 
 computing the average of occlusion contributions coming from a number of directions:
-
+<a name="ssao" style="color: #f0e7d5">
 $$
 A_{p} = \frac{1}{N}\sum_{i=1}^N A_{pi}
-.$$
+$$
+</a>
 
-\label{ssao}
 </p>
 <p>
 Where $A_{p}$ is the total occlusion at $p(x,y)$ and $A_{pi}$ is the contribution 
 coming from direction $i$ to the total occlusion.
 </p>
 
-
+<p style="text-align: center">
 <a name="ssaoscreenspace"><img src="SSAO-screenspace-w.png" style="width: 650px"/></a>
-
+<small>Fig. 2 Screen space depth profile.</small>
+</p>
 
 <p>
 The term $A_{pi}$ is computed by integrating the ambient occlusion along a linear path
 in screen space:
-
+<a name="ssaoray" style="color: #f0e7d5">
 $$
 A_{pi} = \frac{1}{S}\sum_{j=1}^Socc(\vec{p},\vec{o}_{ij})
-.$$
-\label{ssaoray}
+$$
+</a>
 
 Where:
 
@@ -95,18 +96,21 @@ Where:
 The contribution to the total occlusion of a point in screen space from another point in 
 screen space is approximated by first transforming the two points into world space then applying the 
 formula:
-
+<p style="text-align: center">
+<a name="occ" style="color: #f0e7d5">
 $$
 occ(\vec{p},\vec{o}) = \frac{max\left( 0, \hat{N}_{P} \cdot \frac{\vec{O}-\vec{P}}{\left|\vec{O} - \vec{P}\right|}\right)}
 {f\left( \left|\vec{O} - \vec{P}\right|\right)}
-.$$
-\label{occ}
+$$
+</a>
+<small>Equation 1</small>
+</p>
                                  
 Where:
 <ul>
  <li>$\vec{O}$ and $\vec{P}$ are the world space coordinates of $\vec{o}$ and $\vec{p}$</li>
  <li>$\hat{N}$ is the unit normal in world coordinates at point $\vec{P}$</li>
-	\item $f(d)$ is a (usually polynomial) function of the distance $d$ between the two points</li> 
+ <li>$f(d)$ is a (usually polynomial) function of the distance $d$ between the two points</li> 
 </ul>
 </p>
 
@@ -125,7 +129,7 @@ both near and far fragments while still running at reasonable frame rates.
 $f(d)$ can be e.g.:
 $$
 f(d) = B(d_{max})d^2 + 1
-.$$
+$$
 Where $B(d_{max})$ is a coefficient dependent on the maximum ray length. The value assigned to $B$ ensures that
 $occ(\vec{p}, \vec{o}_{d_{max}})$ is always equal to a predefined occlusion value.  
 </p>
@@ -139,14 +143,14 @@ along each direction.
 </p>
 
 <p style="text-align: center">
-<a name="ssaorays" ><img src="SSAO-rays.png" style="width: 325px"/></a>
-<p style="text-align: center"><small>Fig. ?? Rays in screen space.</small></p>
+<a name="ssaorays" ><img src="SSAO-rays.png" style="width: 325px"/></a><br/>
+<small>Fig. 3 Rays in screen space.</small>
 </p>
 
 <p>
 The occlusion along a specific direction is computed by averaging the contributions of each point found along the 
-$2D$ ray shot in that direction; now, in order to minimize the number of times Eq.\eqref{occ} is applied we need to
-understand if a point along the ray is at all visible from the ray starting point (the pixel being shaded) 
+$2D$ ray shot in that direction; now, in order to minimize the number of times <a href="#occ">Eq. 1</a>
+is applied we need to understand if a point along the ray is at all visible from the ray starting point (the pixel being shaded) 
 i.e. if a line connecting the two points does not intersect any geometry. It turns out this is quite easy 
 to understand by comparing the angular coefficient of the $3D$ line connecting the ray starting point with the 
 previous intersection point and the one of the $3D$ line connecting the current point with the ray staring point.
@@ -162,11 +166,12 @@ The algorithm to compute the per-pixel occlusion is therefore:
       $z_{o}$ and $z_{p}$ are the depths of pixels $\vec{o}$ and $\vec{p}$</li> 
 <li> <em>IF</em> the newly computed coefficient is greater than the previously computed one</li>
 <li> <em>THEN</em> replace the previously computed coefficient with the new one and add the contribution
-      of the current point to the total occlusion by applying Eq.\eqref{occ}
+      of the current point to the total occlusion by applying <a href="#occ">Eq. 1</a>.
 </ol>
-
+<p style="text-align: center">
 <a name="ssaoangularcoeff"><img src="SSAO-angularcoeff-w.png" style="width: 650px"/></a>
-
+<small>Fig. 4 Slope(angular coefficient) of rays.</small>
+</p>
 </p>
 <p>
 The <em>MAX_DISTANCE</em> length of the ray in pixels is computed as a percentage of the object/scene bounding sphere 
@@ -199,9 +204,10 @@ Real-time ambient occlusion computation is therefore performed in two separate r
  <li>compute per-pixel ambient occlusion (and shade) from stored data</li> 
 </ol>
 
-See Figure ~\ref{ssaoadiagram} on page ~\pageref{ssaoadiagram}.
-
+<p style="text-align: center">
 <a name="ssaodiagram"><img src="SSAO-diagram-w.png" style="width: 650px"/></a>
+<small>Fig. 5 Architecture diagram of rendering engine.</small>
+</p>
 
 </p>
 
