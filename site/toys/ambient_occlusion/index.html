@@ -10,7 +10,8 @@ Ambient occlusion for a point in space is a measure of how much such point is hi
 its surrounding environment: the higher the occlusion value, the less amount of
 ambient light will hit the point. Attempts have been made to give a mathematical
 description of ambient occlusion, the first mathematical formalization
-of something similar to ambient occlusion I know about is contained in \cite{Zhukov et al. 1998}.
+of something similar to ambient occlusion I know about is contained in
+<a href="#ZhukovEtAl1998"><em>Zhukov et al.</em></a>.
 </p>
 <p>
 Ambient occlusion is a cheap way of approximating global illumination effects used
@@ -68,7 +69,7 @@ coming from direction $i$ to the total occlusion.
 </p>
 
 
-<a name="ssaoscreenspace"><img src="SSAO-screenspace.png" style="width: 650px"/></a>
+<a name="ssaoscreenspace"><img src="SSAO-screenspace-w.png" style="width: 650px"/></a>
 
 
 <p>
@@ -164,7 +165,7 @@ The algorithm to compute the per-pixel occlusion is therefore:
       of the current point to the total occlusion by applying Eq.\eqref{occ}
 </ol>
 
-<a name="ssaoangularcoeff"><img src="SSAO-angularcoeff.png" style="width: 650px"/></a>
+<a name="ssaoangularcoeff"><img src="SSAO-angularcoeff-w.png" style="width: 650px"/></a>
 
 </p>
 <p>
@@ -200,7 +201,7 @@ Real-time ambient occlusion computation is therefore performed in two separate r
 
 See Figure ~\ref{ssaoadiagram} on page ~\pageref{ssaoadiagram}.
 
-<a name="ssaodiagram"><img src="SSAO-diagram.png" style="width: 650px"/></a>
+<a name="ssaodiagram"><img src="SSAO-diagram-w.png" style="width: 650px"/></a>
 
 </p>
 
@@ -229,34 +230,39 @@ algorithm to generate pre-computed cube and spherical ambient occlusion maps.
 <h1>Bibliography</h1>
 
 <p>
-\bibitem {BavoilSainz2009} Bavoil L. and Sainz M.
-\textit{Multi-Layer Dual-Resolution Screen-Space Ambient Occlusion},
+<a name="BavoilSainz2009">Bavoil L. and Sainz M.</a><br/>
+<em>Multi-Layer Dual-Resolution Screen-Space Ambient Occlusion</em>,<br/>
 ACM SIGGRAPH 2009 Talk Program.
-
-\bibitem {Ritschel} T. Ritschel, T. Grosch and H. P. Seidel,
-\textit{Approximating Dynamic Global Illumination in Image Space}, MPI Informatik
-                                                                                             
-\bibitem {Sainz} Sainz, M.,
-\textit{Real-Time Depth Buffer Based Ambient Occlusion}, 
+</p>
+<p>
+<a name="Ritschel">T. Ritschel, T. Grosch and H. P. Seidel</a>,<br/>
+<em>Approximating Dynamic Global Illumination in Image Space</em>,<br/>
+MPI Informatik
+</p>                                                                                             
+<a name="Sainz">Sainz, M.</a>,</br>
+<em>Real-Time Depth Buffer Based Ambient Occlusion</em><br/> 
 Game Developer Conference 2008, San Francisco.
-
-\bibitem {ShanmugamArikan2007} Perumaal Shanmugam and Okan Arikan,
-\textit{Hardware accelerated ambient occlusion techniques on GPUs},
+</p>
+<p>
+<a name="ShanmugamArikan2007">Perumaal Shanmugam and Okan Arikan</a><br/>
+<em>Hardware accelerated ambient occlusion techniques on GPUs</em>,<br/>
 Proceedings of the 2007 symposium on Interactive 3D graphics and games, Seattle.  
-
-\bibitem {TatarchukGDC2006} Tatarchuk N.
-\textit{Parallax Occlusion Mapping for Highly Detailed Surface Rendering},
+</p>
+<p>
+<a name="TatarchukGDC2006">Tatarchuk N.</a></br>
+<em>Parallax Occlusion Mapping for Highly Detailed Surface Rendering</em></br>
 Game Developer Conference 2006, San Francisco.
-
-\bibitem {Kontkanen2005i3d} Kontkanen J. and Laine S. 
-\textit{Ambient Occlusion Fields}, 
-Proceedings of ACM SIGGRAPH 2005 Symposium on Interactive 3D Graphics and Games,
+</p>
+<a name="Kontkanen2005i3d">Kontkanen J. and Laine S.</a><br/> 
+<em>Ambient Occlusion Fields</em>,</br> 
+Proceedings of ACM SIGGRAPH 2005 Symposium on Interactive 3D Graphics and Games,<br/>
 Pages 41--48, 2005 ACM Press.
-
-\bibitem {Zhukov et al. 1998} Zhukov S., Iones A., Kronin G. 
-\textit{An ambient light illumination model}, Rendering techniques '98:
+</p>
+<p>
+<a name="ZhukovEtAl1998">Zhukov S., Iones A., Kronin G.</a><br/> 
+<em>"An ambient light illumination model</em>,<br/>
+Rendering techniques '98:<br/>
 proceedings of the Eurographics Workshop, Vienna - AT, 1998.
-
 </p>
 
 
