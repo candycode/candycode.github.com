@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ site.project_title }} by {{ site.owner_name }}</title>
+    <title>
+    {% if page.title %}
+      {{ page.title }}
+    {% else %}
+      {{ site.project_title }} by {{ site.owner_name }}
+    {% endif %}
+    </title>
     <link rel="stylesheet" href="/stylesheets/styles.css">
     <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>

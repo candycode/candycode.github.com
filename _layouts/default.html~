@@ -3,16 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>{{ site.project_title }} by {{ site.owner_name }}</title>
+    <title>
+    {% if !page.title %}
+      {{ site.project_title }} by {{ site.owner_name }}
+    {% else %}
+      {{ page.title }}
+    {% endif %}
+    </title>
     <link rel="stylesheet" href="/stylesheets/styles.css">
     <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="/javascripts/respond.js"></script>
-    {% if page.comments %}
-    <style>
-      #help-notice { display: none }
-    </style>
-    {% endif %} 
     {% if page.imagehover %}
     <script type="text/javascript">
     $( document ).ready( function() {
@@ -103,8 +104,12 @@
           <li><a href="/site/portfolio/">Portfolio</a></li>
           <li><a href="/site/weblog/">Weblog</a></li>
           <li><a href="/site/about/">About</a></li>
-          <li><a href="mailto:candykode@gmail.com">Contact</a></li>
-        </ul></nav>
+          {% if site.contactform %} 
+            <li><a href="/site/contact/">Contact</a></li>
+          {% else %}
+            <li><a href="mailto:candykode@gmail.com">Contact</a></li>
+          {% endif %} 
+       </ul></nav>
       </div><!-- end header -->
 
     <div class="wrapper">
