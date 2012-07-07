@@ -6,8 +6,6 @@ categories: [web-development, jekyll, github]
 comments: true
 ---
 
-#Moving to Jekyll - Introduction
-
 After trying different solutions to my web publishing needs I ended up
 choosing _Jekyll_ and _GitHub_ as the best option for minimizing
 the time spent in administering the website and updating its content.
@@ -25,7 +23,7 @@ I had to go through to create this website from scratch,
 host it on _GitHub_ and hook it up with various external services to
 add _RSS_ feeds, discussions and contact forms.
 
-Let's' start by looking at what are the options available for hosting
+Let's start by looking at what are the options available for hosting
 a website.
 
 ##Website hosting options
@@ -44,7 +42,7 @@ time finding cases for the use of (1) and (2), unless you really have
 the need to completely control the server side infrastructure and data,
 and the expertise to make services scale properly.
 
-The world wide web environment has evolved quite a bit since I started
+The _World Wide Web_ ecosystem has evolved quite a bit since I started
 putting stuff on the internet on a _Geocities_ account back in 1997, and
 it is now possible to aggregate services from different providers to
 create professional looking and efficient web sites requiring minimal supervision.
