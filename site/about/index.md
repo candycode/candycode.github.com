@@ -63,7 +63,7 @@ This website is not completely static actually since it is indeed a mashup which
 dynamic content provided by other websites, namely:
 
 * Google fonts
-* Goole analytics
+* Google analytics
 * Disqus comments
 * Wufoo contact form
 * Feedburner feeds
