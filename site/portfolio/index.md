@@ -104,7 +104,7 @@ Some features:
 * direct rendering of functional representations
 * advanced 3D selection and picking: select any object with conditional
   queries or through 3D pickers controlled with the mouse and haptic devices
-  and a new Kinect-like device(but **not** the Kinects itself) 
+  and a new Kinect-like device(but **not** the Kinect itself) 
 * application of user defined programmable shaders to any graphical object
 * high quality output suitable for publications
 * distributed version through _Equalizer Graphics_
