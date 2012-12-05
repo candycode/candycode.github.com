@@ -42,6 +42,23 @@ Network(w/ SSL), services provided with configurable resource access control.
 Full integration with WebKit: expose any object to WebKit context and control
 the WebKit context from an external parent context.
 
+##[QPy](http://github.com/candycode/qpy)
+
+Qt-Python dynamic bindings: Make any QObject-derived type and/or instance
+available in a Python context.
+
+Connect:
+
+* QObject signals to QObject slots
+* QObject signals to Python functions
+* QObject signals to Python methods
+
+directly acces QObject properties and invokable methods from Python.
+
+Construct instances of Qt objects from Python using the exposed
+constructors.
+
+
 ##[QLua](http://github.com/candycode/qlua)
 
 Make any QObject-derived class instance available to Lua; connect:
