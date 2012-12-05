@@ -173,6 +173,26 @@ Full integration with WebKit: expose any object to WebKit context.
 
 [Hosted on GitHub](http://locojs.net)
 
+#QPy
+
+<img src="pics/qpy/banner.jpg" class="imghover"/>
+
+Qt-Python dynamic bindings: Make any QObject-derived type and/or instance
+available in a Python context.
+
+Connect:
+
+* QObject signals to QObject slots
+* QObject signals to Python functions
+* QObject signals to Python methods
+
+directly acces QObject properties and invokable methods from Python.
+
+Construct instances of Qt objects from Python using the exposed
+constructors.
+
+[Hosted on GitHub](http://github.com/candycode/qpy)
+
 #QLua
 
 <img src="pics/qlua/banner.jpg" class="imghover"/>
