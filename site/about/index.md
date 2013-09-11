@@ -49,9 +49,8 @@ I lived and worked in Northern Italy...
 
 Should you see anything interesting on my website please go ahead and [contact me](/site/contact).
 
-###[online references](http://scholar.google.ch/scholar?q=%22u.+varetto%22&btnG=&hl=en&as_sdt=0%2C5)
+###[some online references](http://scholar.google.ch/scholar?q=%22u.+varetto%22&btnG=&hl=en&as_sdt=0%2C5)
 
-<br/>
 
 #This Website
 
