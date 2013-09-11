@@ -6,7 +6,7 @@ lightbox: true
 
 imagehover: true
 
-title: molecular modeling, functional representations ...  
+title: molecular modeling, functional representations, real-time graphics ...  
 
 ---
 
@@ -17,14 +17,9 @@ into personal ones; in many cases the code and documents are not yet publicly av
 
 * I do not have time _OR_
 * I am waiting to find the time to publish a paper/article  _OR_
-* I need to make sure I can legally opensource the project under the proper license. 
+* I need to make sure I can legally opensource the project under the proper license.
 
-Hover on the banners to add colors(it takes some time to load the images).
-
-Since I do have tons of presentations, whitepapers, images and movies related to 
-these projects, in the future it will be possible to access additional resources
-from this page. For the time being please do contact me directly in case you are
-interested in any of these projects.
+Hover on the banners to add colors.
 
 #Molekel
 
