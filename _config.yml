@@ -13,5 +13,5 @@ owner_url: http://github.com/candycode
 analytics: true
 permalink: none
 future: true
-feedburner: true
+feedburner: false
 contactform: true
