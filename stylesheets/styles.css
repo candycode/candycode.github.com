@@ -769,7 +769,7 @@ dt {
   font-size: 13px;
   display: inline-block;
   text-align: center;
-  width: 13%;
+  width: 16.4%;
 }
 #header nav li a:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #749619), color-stop(100%, #527f0e));
