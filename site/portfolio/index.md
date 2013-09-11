@@ -12,9 +12,8 @@ title: molecular modeling, functional representations ...
 
 ...just some stuff I have been working on.
 
-This a mix of personal and work-related projects carried on at ETH Zuerich/CSCS which got
-discontinuted and/or turned into personal ones; in many cases the code and documents 
-are not yet publicly available because:
+This a mix of personal and work-related projects which got discontinuted and/or turned 
+into personal ones; in many cases the code and documents are not yet publicly available because:
 
 * I do not have time _OR_
 * I am waiting to find the time to publish a paper/article  _OR_
@@ -56,13 +55,15 @@ still unmatched by any of the free or commercial molecular visualization program
  
 I am now working on my own at a very slow pace to build a replacement for the program with a
 brand new rendering engine and trying to include some of the many feature requests(hundreds
-of pages of email messages) received from users, including scripting, plugins and the ability to directly interface with the computing infrastructure (both HPC and grid/cloud).
+of pages of email messages) received from users, including scripting, plugins and the ability to 
+directly interface with the computing infrastructure (both HPC and grid/cloud).
 
-I am expectig to release a 1.0 version by fall/winter 2013 under a BSD-like license.
+I am expectig to release a 1.0 sometime in  2014 under an open-source license.
 
 Since it turns out that quite a few pieces of the _Molekel_ program where extracted
 and used in other software packages or to write papers without giving any credit,
-I will not release any intermediate version of the program and/or engine until I make at least a referenceable publication somewhere(_arXiv_ is enough).
+I will not release any intermediate version of the program and/or engine until I make at 
+least a referenceable publication somewhere (_arXiv_ is good enough).
 
 #Crystal Viewer
 
@@ -79,7 +80,7 @@ Features:
   any number of per-atom properties
 
 Discontinued; originally developed with another researcher and in collaboration with 
-_EMPA_(Swiss material science lab).
+_EMPA_ (Swiss material science lab).
 
 #Interactive visualization for quantum chemistry
 
@@ -96,7 +97,7 @@ Paper, article and posters published.
 
 Some features:
 
-* precomputed ambient occlusion of molecular surfaces(SES & SAS).
+* precomputed ambient occlusion of molecular surfaces (SES & SAS).
 * real-time ambient occlusion 
 * order-correct transparency to mix surfaces with atoms and bonds
 * volume-rendering of scalar fields, orbitals & density matrix
@@ -104,7 +105,7 @@ Some features:
 * direct rendering of functional representations
 * advanced 3D selection and picking: select any object with conditional
   queries or through 3D pickers controlled with the mouse and haptic devices
-  and a new Kinect-like device(but **not** the Kinect itself) 
+  and a new Kinect-like device (but **not** the Kinect itself) 
 * application of user defined programmable shaders to any graphical object
 * high quality output suitable for publications
 * distributed version through _Equalizer Graphics_
@@ -115,7 +116,7 @@ Some features:
   based on affinity/maximum likelyhood matching e.g. find structures
   with LUMO/HOMO orbitals with specific energies or compounds likely to
   bind with specific molecule at specific sites
-* basic near-real-time Lennar-Jones molecular dynamics with simulation
+* basic near-real-time Lennard-Jones molecular dynamics with simulation
   of individual subregions
 * computation and animation of vibrational modes
 
@@ -143,14 +144,15 @@ as proxy geometry for quadric primitives.
 Proxy geometry is optimal i.e. edges are tangent to the quadric surface
 in screen space for most quadric types.
 
-OpenSceneGraph code available on GitHub, temporarily hosted in a private project.
+_OpenSceneGraph_ code available on _GitHub_, temporarily hosted in a private project.
 
 #Parsley
 
 <img src="pics/parsley/banner.jpg" class="imghover"/>
 
-Parsing framework originally developed to exctract and interpret data from results
-of quantum chemistry/physics computations.
+Parsing framework originally developed to extract and interpret data from results
+of quantum chemistry/physics computations, also usable as a Parsing Expression
+Grammar-like framework.
 
 [Hosted on GitHub](http://github.com/candycode/parsley)
 
@@ -167,7 +169,7 @@ Implement modules as C++ loadable objects and use a scripting language as glue/c
 Distribute apps as a single executable or a player application which downloads
 objects on the fly.
 
-Network(w/ SSL), services provided with configurable resource access control.
+Network(w/ SSL) services are provided with configurable resource access control.
 
 Full integration with WebKit: expose any object to WebKit context.
 
@@ -208,7 +210,8 @@ directly acces QObject properties and invokable methods from Lua.
 
 #QTest
 
-Library for macro recording and automatic testing of Qt GUI applications: record events and play them back at a later time with the desired speed.
+Library for macro recording and automatic testing of Qt GUI applications: record events and play them back at a
+later at the desired speed.
 
 Support for snapshots and checkpoints included.
 
@@ -236,14 +239,22 @@ developer, on _Qt_ to also perform a comparison of the two toolkits.
 
 <img src="pics/fd/banner.jpg" class="imghover"/>
 
-This is a program from the previous century. It started as  a proof of concept for a distributed collaborative CAD/3D modeler where 3D objects had assigned permissions similar to files in file systems and any instance of the program could work as client and/or 
-server(similar to current p2p networks).
+This is a program from the previous century. It started as  a proof of concept for a distributed
+collaborative CAD/3D modeler where 3D objects had assigned permissions similar to files in 
+file systems and any instance of the program could work as client and/or server.
 
-Originally developed on SGI hardware and lately rewritten to work on Windows around 1998, used mainly as a workbench for experimenting with computer graphics algorithms, OpenGL and Windows GUI programming. I also built it to generate (animated) data for RenderMan compliant renderers, unfortunately I never had access to the real thing so the shader interface only works with BMRT.
+Originally developed on SGI hardware and lately rewritten to work on Windows around 1998, also used 
+as a workbench for experimenting with computer graphics algorithms, OpenGL and Windows GUI programming.
+I also built a version to generate (animated) data for RenderMan compliant renderers, unfortunately 
+I never had access to the real thing so the shader interface only works with BMRT.
 
-Free Dimensions can generate any sort of geometry from F-Rep with CSG and blending to NURBS and has limited support for animation. It can also generate depth maps and perform preview of applied shadows and light maps (all done painfully slowly on the CPU). Last but not least it can export a 3D world to Windows, X, and Java3D source code.
+Free Dimensions can generate any sort of geometry from F-Rep with CSG and blending to NURBS and has 
+limited support for animation. It can also generate depth maps and perform preview of applied shadows 
+and light maps (all done painfully slowly on the CPU). 
+Last but not least it can export a 3D world to Windows, X, and Java3D source code.
 
-It turns out that the program (together with BMRT 2.6) does work on Windows 7 (although with issues with resizing and when using multi-level undo/redo) including the scripting interface and some networking features.
+It turns out that the program (together with BMRT 2.6) does work on Windows 7 (although with issues with resizing and when using multi-level undo/redo) 
+including the scripting interface and some networking features.
 
 #sMesh
 
