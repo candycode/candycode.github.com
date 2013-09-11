@@ -24,11 +24,8 @@ and video-conferencing with avatars in 2000, mobile multimedia development in 20
 reconstruction and visualization of approximated solutions to the 
 Schrödinger equation in 2008 (paper accepted at 2009 IEEE Visualization conference).
 
-Ido have a web presence since 1996 and used my sites to distribute my own developed free software and 
+I do have a web presence since 1996 and used my sites to distribute my own developed free software and 
 programming tutorials which although dated I hope they will find room on this website and _GitHub_.
-
-I do have interests in computer graphics and life sciences and in general building software
-applications and libraries that people like to use.
 
 I lived and worked in Northern Italy...
 
