@@ -7,6 +7,5 @@ layout: default
 * [candycode](http://github.com/candycode) - personal  
 * [ugovaretto](http://github.com/ugovaretto) - scratchpad/junk drawer for work-related projects 
 
-###Weblogs
+[weblog](http://bwv1079.wordpress.com)
 
-* [see++](http://ugo.typepad.com)
