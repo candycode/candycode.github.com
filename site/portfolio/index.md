@@ -267,5 +267,5 @@ Contributed code to parse and interpret quantum chemistry data formats.
 #ParaView/VTK
 
 Contributed real-time raytracing code to particle renderer.
-Collaboration between EDF(France) and ETH Zuerich/CSCS.
+Collaboration between EDF (France) and ETH Zuerich/CSCS.
 
