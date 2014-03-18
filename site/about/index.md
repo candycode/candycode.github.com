@@ -39,13 +39,13 @@ I lived and worked in Northern Italy...
 
 <div style="text-align: right"><img src="sf_small.jpg"/></div><br/>
 
-...I currently reside in Switzerland...
+...and currently reside in Switzerland.
 
 <div style="text-align: right"><img src="lugano_small.jpg"/></div><br/>
 
-...and regularly travel to the US, mainly to New York City, and less frequently to the Bay Area.
+<!--...and regularly travel to the US, mainly to New York City, and less frequently to the Bay Area.
 
-<div style="text-align: right"><img src="ny_small.jpg"/></div><br/>
+<div style="text-align: right"><img src="ny_small.jpg"/></div><br/>-->
 
 Should you see anything interesting on my website please go ahead and [contact me](/site/contact).
 
