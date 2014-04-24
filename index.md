@@ -4,8 +4,8 @@ layout: default
 
 ###GitHub accounts:
 
-* [candycode](http://github.com/candycode) - personal  
-* [ugovaretto](http://github.com/ugovaretto) - scratchpad/junk drawer for work-related projects 
+* [candycode](https://github.com/candycode?tab=repositories) - ~personal  
+* [ugovaretto](http://github.com/ugovaretto?tab=repositories) - scratchpad/junk drawer for work-related projects 
 
 ###Weblogs:
 
