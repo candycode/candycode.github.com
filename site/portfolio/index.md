@@ -19,8 +19,7 @@ into personal ones; in many cases the code and documents are not yet publicly av
 * I am waiting to find the time to publish a paper/article  _OR_
 * I need to make sure I can legally opensource the project under the proper license.
 
-I just added here stuff for which I could produce good-enough looking pictures, things like e.g. embedded noQSL databases
-and tools for automated data analysis of financial information are not shown :-)
+Most of the stuff on this page is here because I could produce good-enough looking pictures and/or is easy to describe in one paragrah; things like e.g. embedded noQSL databases and tools for automated parsing and analysis of financial information are not shown :-)
 
 Hover on the banners to add colors.
 
@@ -56,7 +55,7 @@ brand new rendering engine and trying to include some of the many feature reques
 of pages of email messages) received from users, including scripting, plugins and the ability to 
 directly interface with the computing infrastructure (both HPC and grid/cloud).
 
-I am expectig to release a 1.0 sometime in  2014 under an open-source license.
+I am expectig to release a 1.0 version sometime in  2014/early 2015 under an open-source license.
 
 Since it turns out that quite a few pieces of the _Molekel_ program where extracted
 and used in other software packages or to write papers without giving any credit,
