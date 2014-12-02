@@ -37,7 +37,7 @@ Checkout the
 given (upon invitation) at the _American Chemical Society_ as well 
 as gallery and videos on the official website.
 
-[Website](http://molekel.cscs.ch)
+[Website](http://ugovaretto.github.io/molekel/)
 
 This project has been discontinued in 2010, but it is still being downloaded at
 a rate of about 1k downloads per month.
@@ -55,7 +55,7 @@ brand new rendering engine and trying to include some of the many feature reques
 of pages of email messages) received from users, including scripting, plugins and the ability to 
 directly interface with the computing infrastructure (both HPC and grid/cloud).
 
-I am expectig to release a 1.0 version sometime in  2014/early 2015 under an open-source license.
+I am expecting to release a 1.0 version sometime in 2015 under an open-source license.
 
 Since it turns out that quite a few pieces of the _Molekel_ program where extracted
 and used in other software packages or to write papers without giving any credit,
