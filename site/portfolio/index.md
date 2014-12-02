@@ -77,7 +77,7 @@ Features:
   any number of per-atom properties
 
 Discontinued; originally developed with another researcher and in collaboration with 
-_EMPA_ (Swiss material science lab).
+_EMPA_ (Swiss material science lab). 
 
 #Interactive visualization for quantum chemistry
 
