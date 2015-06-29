@@ -26,7 +26,7 @@ of visualized (animated) 3D scientific data sets.
 Parsing framework originally developed to exctract and interpret data from results
 of quantum chemistry/physics computations.
 
-##[LoCO.js](http://locojs.net)
+##[LoCO.js](http://candycode.github.com/loco)
 
 JavaScript/C++ application framework: Develop multiplatform desktop applications
 with CoffeeScript/JavaScript/Python/Scheme...anything that compiles to
