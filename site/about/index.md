@@ -22,7 +22,7 @@ I worked in many fields which, at the time, were indeed uncharted territory such
 3d modeling program that could work over a network in 1996, automatic reconstruction of 3d head models 
 and video-conferencing with avatars in 2000, mobile multimedia development in 2002 and real-time 
 reconstruction and visualization of approximated solutions to the 
-Schrödinger equation in 2008 (paper accepted at 2009 IEEE Visualization conference).
+Schrödinger equation.
 
 I do have a web presence since 1996 and used my sites to distribute my own developed free software and 
 programming tutorials which although dated I hope they will find room on this website and _GitHub_.
