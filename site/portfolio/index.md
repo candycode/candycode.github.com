@@ -170,7 +170,7 @@ Network(w/ SSL) services are provided with configurable resource access control.
 
 Full integration with WebKit: expose any object to WebKit context.
 
-[Hosted on GitHub](http://ugovaretto.me/loco)
+[Hosted on GitHub](http://candycode.github.com/loco)
 
 #QPy
 
