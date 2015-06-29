@@ -6,7 +6,7 @@ lightbox: true
 
 imagehover: true
 
-title: molecular modeling, functional representations, real-time graphics ...  
+title: molecular modeling, functional representations, real-time graphics, data analysis ...  
 
 ---
 
