@@ -46,7 +46,7 @@ Note that the real-time rendering quality(especially for electronic structure da
 still unmatched by any of the free or commercial molecular visualization programs, mainly due to:
 
 * the ability to apply custom vertex and fragment shaders to any object, with
-  on-the-fly generaion of the shader editor GUI directly from the compiled shaders 
+  on-the-fly generation of the shader editor GUI directly from the compiled shaders 
 * correct transparency through depth peeling
 * high resolution output for high DPI printouts 
  
