@@ -40,7 +40,7 @@ as gallery and videos on the official website.
 [Website](http://ugovaretto.github.io/molekel/)
 
 This project has been discontinued in 2010, but it is still being downloaded at
-a rate of about 1k downloads per month.
+a rate of about 100 downloads per month.
 
 Note that the real-time rendering quality(especially for electronic structure data) is
 still unmatched by any of the free or commercial molecular visualization programs, mainly due to:
@@ -55,7 +55,7 @@ brand new rendering engine and trying to include some of the many feature reques
 of pages of email messages) received from users, including scripting, plugins and the ability to 
 directly interface with the computing infrastructure (both HPC and grid/cloud).
 
-I am expecting to release a 1.0 version sometime in 2015 under an open-source license.
+I am expecting to release a 1.0 version sometime in 2016 under an open-source license.
 
 Since it turns out that quite a few pieces of the _Molekel_ program where extracted
 and used in other software packages or to write papers without giving any credit,
