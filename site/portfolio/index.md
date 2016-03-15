@@ -57,11 +57,6 @@ directly interface with the computing infrastructure (both HPC and grid/cloud).
 
 I am expecting to release a 1.0 version sometime in 2016 under an open-source license.
 
-Since it turns out that quite a few pieces of the _Molekel_ program where extracted
-and used in other software packages or to write papers without giving any credit,
-I will not release any intermediate version of the program and/or engine until I make at 
-least a referenceable publication somewhere (_arXiv_ is good enough).
-
 #Crystal Viewer
 
 <img src="pics/crystal_viewer/banner.jpg" class="imghover"/>
