@@ -2,8 +2,6 @@
 layout: default
 ---
 
-#Me
-
 Hi there, I am a software engineer/computer scientist/hacker/sw dev. manager/...you name it residing in Switzerland
 where, after years spent working on graphics and visualization, I am now doing research on hybrid distributed
 computing architectures (i.e. spending time trying to understand why things do not work as expected).
@@ -27,7 +25,7 @@ Schrödinger equation.
 I do have a web presence since 1996 and used my sites to distribute my own developed free software and 
 programming tutorials which although dated I hope they will find room on this website and _GitHub_.
 
-I lived and worked in Northern Italy...
+[comment]: I lived and worked in Northern Italy...
 
 <div style="text-align: right"><img src="torino_night_small.jpg"/></div><br/>
 
