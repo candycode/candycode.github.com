@@ -33,7 +33,7 @@ being a widely used software package(mainly due to the lack of alternatives).
 
 Checkout the 
 [presentation](http://www.slideshare.net/molekel/molekel-august-2009-acs-meeting) 
-given (upon invitation) at the _American Chemical Society_ as well 
+given at the _American Chemical Society_ meeting as well 
 as gallery and videos on the official website.
 
 [Website](http://ugovaretto.github.io/molekel/)
@@ -56,7 +56,8 @@ directly interface with the computing infrastructure (both HPC and grid/cloud).
 
 I am expecting to release a 1.0 version sometime in 2016 under an open-source license.
 
-#Crystal Viewer
+Crystal Viewer
+--------------
 
 <img src="pics/crystal_viewer/banner.jpg" class="imghover"/>
 
@@ -117,7 +118,8 @@ feasibility of most of the features; many concepts from this research
 are used in my new molecular modeling tool currently in the making; some
 of the prototypes are or will be opensourced.
 
-#(Inverse) global illumination
+(Inverse) global illumination
+-----------------------------
 
 <img src="pics/rglobal_illum/banner.jpg" class="imghover"/>
 
@@ -125,7 +127,8 @@ Research on how to infer features of 3d shapes from global illumination-related 
 
 Cannot disclose more at this time. 
 
-#Real-time raytracing of quadrics
+Real-time raytracing of quadrics
+--------------------------------
 
 <img src="pics/quadrics/banner.jpg" class="imghover"/>
 
@@ -137,7 +140,8 @@ in screen space for most quadric types.
 
 _OpenSceneGraph_ code available on _GitHub_, temporarily hosted in a private project.
 
-#Parsley
+Parsley
+-------
 
 <img src="pics/parsley/banner.jpg" class="imghover"/>
 
@@ -147,7 +151,8 @@ Grammar-like framework.
 
 [Hosted on GitHub](http://github.com/candycode/parsley)
 
-#LoCO.js
+LoCO.js
+-------
 
 <img src="pics/loco/banner.jpg" class="imghover"/>
 
@@ -166,7 +171,8 @@ Full integration with WebKit: expose any object to WebKit context.
 
 [Hosted on GitHub](http://candycode.github.com/loco)
 
-#QPy
+QPy
+--------
 
 <img src="pics/qpy/banner.jpg" class="imghover"/>
 
@@ -186,7 +192,8 @@ constructors.
 
 [Hosted on GitHub](http://github.com/candycode/qpy)
 
-#QLua
+QLua
+------
 
 <img src="pics/qlua/banner.jpg" class="imghover"/>
 
@@ -199,7 +206,8 @@ directly acces QObject properties and invokable methods from Lua.
 
 [Hosted on GitHub](http://github.com/candycode/qlua)
 
-#QTest
+QTest
+------
 
 Library for macro recording and automatic testing of Qt GUI applications: record events and play them back at a
 later at the desired speed.
@@ -218,7 +226,8 @@ representations and volumetric datasets with multi-dimensional transfer function
 This is research I started on my own many years ago; with the latest developments in
 hardware architectures it seems to finally be something possible to accomplish.
 
-#AOWhiz
+AOWhiz
+-------
 
 <img src="pics/aowhiz/banner.jpg" class="imghover"/>
 
@@ -226,7 +235,8 @@ GUI application to generate ambient occlusion information from 3D meshes;
 two versions developed: one based on _wxWidgets_, the other, together with another
 developer, on _Qt_ to also perform a comparison of the two toolkits.
 
-#Free Dimensions
+Free Dimensions
+---------------
 
 <img src="pics/fd/banner.jpg" class="imghover"/>
 
@@ -247,7 +257,8 @@ Last but not least it can export a 3D world to Windows, X, and Java3D source cod
 It turns out that the program (together with BMRT 2.6) does work on Windows 7 (although with issues with resizing and when using multi-level undo/redo) 
 including the scripting interface and some networking features.
 
-#sMesh
+sMesh
+-----
 
 <img src="pics/smesh/banner.jpg" class="imghover"/>
 
@@ -256,11 +267,13 @@ Another set of tools developed in the nineties, while still in college.
 Subdivide with Catmull-Clark, Loop and other techniques, decimate high polygonal count
 meshes, apply height maps to the surface normals.
 
-#OpenBabel
+OpenBabel
+---------
 
 Contributed code to parse and interpret quantum chemistry data formats.
 
-#ParaView/VTK
+ParaView/VTK
+------------
 
 Contributed real-time raytracing code to particle renderer.
 Collaboration between EDF (France) and ETH Zuerich/CSCS.
