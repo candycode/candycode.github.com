@@ -2,17 +2,10 @@
 layout: default
 ---
 
-#Toys
-
 This is a partial list of semi-active projects currently
 hosted on _GitHub_. They represent a subset of the list found in the _Portfolio_
 section, which also includes some projects not yet open-sourced or simply
 unmaintained or discontinued.
-
-Although these projects do look unrelated, they are the basis, together
-with other non-yet-open-sourced projects, for some
-new molecular modeling/visualization/simulation/analysis programs I am
-currently working on.
 
 [Real-time ambient occlusion](ambient_occlusion/)
 -------------------------------------------------
