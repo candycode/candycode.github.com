@@ -21,7 +21,8 @@ into personal ones; in many cases the code and documents are not yet publicly av
 
 Most of the stuff on this page is here because I could produce good-enough looking pictures and/or is easy to describe in one paragrah; things like e.g. embedded noQSL databases and tools for automated parsing and analysis of financial information are not shown :-)
 
-#Molekel
+Molekel
+-------
 
 <img src="pics/molekel/banner.jpg" class="imghover"/>
 
