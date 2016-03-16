@@ -2,12 +2,14 @@
 layout: default
 ---
 
-###GitHub accounts:
+GitHub accounts:
+---------------
 
 * [candycode](https://github.com/candycode?tab=repositories) - ~personal  
 * [ugovaretto](http://github.com/ugovaretto?tab=repositories) - scratchpad/junk drawer for work-related projects 
 
-###Weblogs:
+Weblog:
+------
 
 * [bwv1079](http://bwv1079.wordpress.com)
 
