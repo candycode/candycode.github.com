@@ -25,19 +25,13 @@ Schrödinger equation.
 I do have a web presence since 1996 and used my sites to distribute my own developed free software and 
 programming tutorials which although dated I hope they will find room on this website and _GitHub_.
 
-[comment]: I lived and worked in Northern Italy...
+Places I have lived
 
 <div style="text-align: right"><img src="torino_night_small.jpg"/></div><br/>
 
-...Southern California...
-
 <div style="text-align: right"><img src="santamonica_small.jpg"/></div><br/>
 
-...Northern California...
-
 <div style="text-align: right"><img src="sf_small.jpg"/></div><br/>
-
-...and currently reside in Switzerland.
 
 <div style="text-align: right"><img src="lugano_small.jpg"/></div><br/>
 
@@ -49,8 +43,8 @@ Should you see anything interesting on my website please go ahead and [contact m
 
 ###[some online references](http://scholar.google.ch/scholar?q=%22u.+varetto%22&btnG=&hl=en&as_sdt=0%2C5)
 
-
-#This Website
+This Website
+------------
 
 This place, together with the accompanying _GitHub_ accounts, is my virtual playground, attic, junkyard 
 where much of the stuff I had/have lying around on my private mass storage devices is being/will be
