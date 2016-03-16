@@ -14,19 +14,22 @@ with other non-yet-open-sourced projects, for some
 new molecular modeling/visualization/simulation/analysis programs I am
 currently working on.
 
-##[Real-time ambient occlusion](ambient_occlusion/)
+[Real-time ambient occlusion](ambient_occlusion/)
+-------------------------------------------------
 
 Real-time ambient occlusion, developed to enable better spatial perception
 of visualized (animated) 3D scientific data sets.
 
 ![](pics/ssao.png)
 
-##[Parsley](http://github.com/candycode/parsley)
+[Parsley](http://github.com/candycode/parsley)
+----------------------------------------------
 
 Parsing framework originally developed to exctract and interpret data from results
 of quantum chemistry/physics computations.
 
-##[LoCO.js](http://candycode.github.com/loco)
+[LoCO.js](http://candycode.github.com/loco)
+-------------------------------------------
 
 JavaScript/C++ application framework: Develop multiplatform desktop applications
 with CoffeeScript/JavaScript/Python/Scheme...anything that compiles to
@@ -42,7 +45,8 @@ Network(w/ SSL), services provided with configurable resource access control.
 Full integration with WebKit: expose any object to WebKit context and control
 the WebKit context from an external parent context.
 
-##[QPy](http://github.com/candycode/qpy)
+[QPy](http://github.com/candycode/qpy)
+--------------------------------------
 
 Qt-Python dynamic bindings: Make any QObject-derived type and/or instance
 available in a Python context.
@@ -58,8 +62,8 @@ directly acces QObject properties and invokable methods from Python.
 Construct instances of Qt objects from Python using the exposed
 constructors.
 
-
-##[QLua](http://github.com/candycode/qlua)
+[QLua](http://github.com/candycode/qlua)
+----------------------------------------
 
 Make any QObject-derived class instance available to Lua; connect:
 
