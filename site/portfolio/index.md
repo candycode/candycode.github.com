@@ -220,7 +220,8 @@ Support for snapshots and checkpoints included.
 One version, with no dependencies on _Molekel_ is already included in the _Molekel_ 
 source code repository inside the <code>src/utility/events</code> directory. 
 
-#F-Rep modeling
+F-Rep modeling
+--------------
 
 <img src="pics/frep/banner.jpg" class="imghover"/>
 
