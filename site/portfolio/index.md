@@ -29,7 +29,7 @@ Molekel
 Multi-platform molecular visualization/analysis program. Started as a proof
 of concept to test the suitability of different software libraries
 for various visualization tasks, it ended up
-being a widely used software package(mainly due to the lack of alternatives).
+being a widely used software package.
 
 Checkout the 
 [presentation](http://www.slideshare.net/molekel/molekel-august-2009-acs-meeting) 
@@ -52,7 +52,7 @@ still unmatched by any of the free or commercial molecular visualization program
 I am now working on my own at a very slow pace to build a replacement for the program with a
 brand new rendering engine and trying to include some of the many feature requests(hundreds
 of pages of email messages) received from users, including scripting, plugins and the ability to 
-directly interface with the computing infrastructure (both HPC and grid/cloud).
+directly interface with the computing infrastructure (both HPC and grid/cloud) from a web-based GUI.
 
 I am expecting to release a 1.0 version sometime in 2016 under an open-source license.
 
@@ -65,6 +65,7 @@ Real-time visualizaiton of large (multi-million atoms) chemical datasets.
 
 Features:
 
+* advanced GPU-based real-time ray-casting of functional representations (FRep)
 * color coding of scalar fields
 * picking of individual atoms
 * support for symmetry and replication of unit cell 
@@ -148,6 +149,8 @@ Parsley
 Parsing framework originally developed to extract and interpret data from results
 of quantum chemistry/physics computations, also usable as a Parsing Expression
 Grammar-like framework.
+
+Under rewriting.
 
 [Hosted on GitHub](http://github.com/candycode/parsley)
 
