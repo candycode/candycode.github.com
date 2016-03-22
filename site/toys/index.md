@@ -26,7 +26,7 @@ OpenSceneGraph currently used as rendering engine.
 
 ![](https://raw.githubusercontent.com/candycode/frepup-media/master/pictures/frepup-sharp-features.png)
 
-[Test pictures and videos](https://raw.githubusercontent.com/candycode/frepup-media/master/pictures/frepup-sharp-features.png)
+[Test pictures and videos](https://github.com/candycode/frepup-media)
 
 [Parsley](http://github.com/candycode/parsley)
 ----------------------------------------------
