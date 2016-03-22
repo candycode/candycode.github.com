@@ -18,13 +18,15 @@ of visualized (animated) 3D scientific data sets. Used in conjunction with ray-c
 FRep-Up
 -------
 
-First version of a proof of concept for a 3D modeling framework using only a mathematical representation of bounded volumes and blending functions.
+First version (~2011) of a proof of concept for a 3D modeling framework using only a mathematical representation of bounded volumes and blending functions.
 Everything, from displacement maps and color shading to intersection routines and gradient computation, is defined with mathematical formulae or procedures and compiled at run-time into GLSL vertex and fragment shaders.
 Scene is decomposed into clusters of proxy-geometries used as targets for ray-casting.
 Needs porting to latest GLSL/OpenGL version.
 OpenSceneGraph currently used as rendering engine.
 
 ![](https://raw.githubusercontent.com/candycode/frepup-media/master/pictures/frepup-sharp-features.png)
+
+[Test pictures and videos](https://raw.githubusercontent.com/candycode/frepup-media/master/pictures/frepup-sharp-features.png)
 
 [Parsley](http://github.com/candycode/parsley)
 ----------------------------------------------
