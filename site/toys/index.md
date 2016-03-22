@@ -30,7 +30,7 @@ OpenSceneGraph currently used as rendering engine.
 
 ![](pics/csg.png)
 
-[Test pictures and videos](https://github.com/candycode/frepup-media)
+[Screen captures from test scenes](https://github.com/candycode/frepup-media)
 
 [Parsley](http://github.com/candycode/parsley)
 ----------------------------------------------
