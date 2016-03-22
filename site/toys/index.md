@@ -24,6 +24,7 @@ Scene is decomposed into clusters of proxy-geometries used as targets for ray-ca
 Needs porting to latest GLSL/OpenGL version.
 OpenSceneGraph currently used as rendering engine.
 
+![](https://raw.githubusercontent.com/candycode/frepup-media/master/pictures/frepup-sharp-features.png)
 
 [Parsley](http://github.com/candycode/parsley)
 ----------------------------------------------
