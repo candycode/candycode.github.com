@@ -2,11 +2,7 @@
 layout: default
 ---
 
-Hi there, I am a software engineer/computer scientist/hacker/sw dev. manager/...you name it residing in Switzerland
-where, after years spent working on graphics and visualization, I am now doing research on hybrid distributed
-computing architectures (i.e. spending time trying to understand why things do not work as expected).
-Part of my job is to create software libraries to make novel hardware easy to access by scientific researchers
-as well as developing tools for benchmarking and troubleshooting hardware devices and computer systems.       
+Hi there, I am a software engineer/computer scientist/hacker/sw dev. manager/...you name it.  
 
 In the past years I worked in many different fields and capacities covering the entire software development process
 from research and inception to design, development, testing and documentation while supporting sales and
@@ -17,10 +13,9 @@ Programmed cell phones, force-feedback devices, supercomputers and GPUs as well 
 led outsourced teams and contributed to technical documentation and scientific papers.
 
 I worked in many fields which, at the time, were indeed uncharted territory such as building a collaborative
-3d modeling program that could work over a network in 1996, automatic reconstruction of 3d head models 
+3d modeling program that could work over a network in the nineties, automatic reconstruction of 3d head models 
 and video-conferencing with avatars in 2000, mobile multimedia development in 2002 and real-time 
-reconstruction and visualization of approximated solutions to the 
-Schrödinger equation.
+reconstruction and visualization of approximated solutions to the Schrödinger equation.
 
 I do have a web presence since 1996 and used my sites to distribute my own developed free software and 
 programming tutorials which although dated I hope they will find room on this website and _GitHub_.
@@ -35,9 +30,9 @@ Places I have lived
 
 <div style="text-align: right"><img src="lugano_small.jpg"/></div><br/>
 
-<!--...and regularly travel to the US, mainly to New York City, and less frequently to the Bay Area.
+<!--...and regularly travel to the US, mainly to New York City, and less frequently to the Bay Area.-->
 
-<div style="text-align: right"><img src="ny_small.jpg"/></div><br/>-->
+<div style="text-align: right"><img src="ny_small.jpg"/></div><br/>
 
 Should you see anything interesting on my website please go ahead and [contact me](/site/contact).
 
