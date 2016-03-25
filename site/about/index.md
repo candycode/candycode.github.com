@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Hi there, I am a software engineer/computer scientist/hacker/sw dev. manager/...you name it.  
+Hi there, I am a software engineer/architect/computer scientist/hacker/sw dev. manager/...you name it.  
 
 In the past years I worked in many different fields and capacities covering the entire software development process
 from research and inception to design, development, testing and documentation while supporting sales and
