@@ -94,10 +94,10 @@ Some features:
 * real-time ambient occlusion 
 * order-correct transparency to mix surfaces with atoms and bonds
 * volume-rendering of scalar fields, orbitals & density matrix
-* real-time rendering of multi-million atom datasets(with bonds)
+* real-time rendering of multi-million atom datasets (with bonds)
 * direct rendering of functional representations
 * advanced 3D selection and picking: select any object with conditional
-  queries or through 3D pickers controlled with the mouse or a LeapMotion device
+  queries or through 3D pickers controlled with the mouse or a _LeapMotion_ device
 * application of user defined programmable shaders to any graphical object
 * high quality output suitable for publications
 * distributed version through _Equalizer Graphics_
