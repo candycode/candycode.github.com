@@ -75,7 +75,7 @@ Features:
 Discontinued; originally developed with another researcher and in collaboration with 
 _EMPA_ (Swiss material science lab). 
 
-#Interactive visualization for quantum chemistry
+# Interactive visualization for quantum chemistry
 
 <img src="pics/funorbitals/banner.jpg" class="imghover"/>
 
@@ -84,7 +84,7 @@ real-time evaluation of approximate solutions to the Schroedinger equation.
 
 Paper, article and posters published.
 
-#Kernel for interactive molecular modeling and analysis
+# Kernel for interactive molecular modeling and analysis
 
 <img src="pics/gkernel/banner.jpg" class="imghover"/>
 
@@ -97,8 +97,7 @@ Some features:
 * real-time rendering of multi-million atom datasets(with bonds)
 * direct rendering of functional representations
 * advanced 3D selection and picking: select any object with conditional
-  queries or through 3D pickers controlled with the mouse and haptic devices
-  and a new Kinect-like device (but **not** the Kinect itself) 
+  queries or through 3D pickers controlled with the mouse or a LeapMotion device
 * application of user defined programmable shaders to any graphical object
 * high quality output suitable for publications
 * distributed version through _Equalizer Graphics_
@@ -112,12 +111,14 @@ Some features:
 * basic near-real-time Lennard-Jones molecular dynamics with simulation
   of individual subregions
 * computation and animation of vibrational modes
+* experimental OSVR Hacker Dev Kit support
+* web-based remote visualization option through compressed video or image streams
 
 This thing started with a proper analysis and design phase and was basically
 frozen after having implemented separate working prototypes to verify the
 feasibility of most of the features; many concepts from this research
 are used in my new molecular modeling tool currently in the making; some
-of the prototypes are or will be opensourced.
+of the prototypes will be opensourced.
 
 (Inverse) global illumination
 -----------------------------
