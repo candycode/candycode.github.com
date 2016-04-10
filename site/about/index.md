@@ -45,7 +45,7 @@ where much of the stuff I had/have lying around on my private mass storage devic
 dumped, together with links to various opensource projects I am involved in.  
 
 Tired of having to administer a CMS with a hosted database and dealing with performance
-issues even for a very low traffic websites, I moved to an almost completely static website
+issues even for a very low traffic website, I moved to an almost completely static website
 hosted on _GitHub_. 
 
 The website is re-generated automatically by _Jekyll_ after each change to the website source code. 
