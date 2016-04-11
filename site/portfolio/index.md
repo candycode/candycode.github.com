@@ -19,7 +19,7 @@ into personal ones; in many cases the code and documents are not yet publicly av
 * I am waiting to find the time to publish a paper/article  _OR_
 * I need to make sure I can legally opensource the project under the proper license.
 
-Most of the stuff on this page is here because I could produce good-enough looking pictures and/or is easy to describe in one paragrah; things like e.g. embedded noQSL databases and tools for automated parsing and analysis of financial information are not shown :-)
+Most of the stuff on this page is here because I could produce good-enough looking pictures and/or it is easy to describe in one paragrah; things like e.g. embedded noQSL databases, machine learning libraries or tools for automated parsing and analysis of financial information are not shown here :-)
 
 Molekel
 -------
